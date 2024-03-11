@@ -21,15 +21,34 @@
     - Who decides, which books we were allowed to read in the future
     - How much freedom and self-determination do we give up?
 1. Apple with Iphone
+    - No free software allowed
+    - So, I have no words for that shit.
+    - Apple can erase applications, which are installed on the devices 
 2. Critical Points
 3. Google with Android
 4. Google chrome OS
 5. Amazon Kindle
 6. Who decides which books about this topic?
+    - who decide in the future about censorship and freedom? 
+        + some aspect for real is just Politics
+            - interesting about this topic: parental Computing (Tinh toan dau ien)
+            Somehow is the cloud's My-mum-Cleaned-My-room
+            let me show you. when your mom cleans your room, it's a mixed bag. 
+        + Industry?
+        + Population?
 7. Politics
 8. Interesting article about this topic
 
 # III. Client - Server
+1. Introduction
+- A client-server System includess:
+    - Some shit that I've known
+    - So, a client sends a request to the server responds with a reply.
+    - The server, which provides services and/or data to client (with the producer)
+- The connection establishment is initiated by the clients
+
+- Tasks in the Client-server model
+- There were multiple 
 
 # IV. Fundamentals, Laws and Limitations
 
@@ -42,6 +61,3 @@
 5. In the professional Sector Today: Blades and something for something
 6. BladeCenter for the Blades
 7. Distributed Memory
-
-
-
