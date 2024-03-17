@@ -51,7 +51,9 @@
 - There were multiple 
 
 # IV. Fundamentals, Laws and Limitations
-
+- Some laws and Limitations
+    1. Moorse's Law - the number of transitors on intergrated circuit chips doubles approcimately for every 2 years
+    
 # V. Parallel Computers
 
 1. Shared memory
