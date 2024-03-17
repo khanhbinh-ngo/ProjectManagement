@@ -4,6 +4,7 @@ Chapter 3: Scope Management
 
 So, I have some thing for you guys
 []. Definition of Project Scope management
+
 []. Make slide for our presentation
 
 
@@ -27,9 +28,10 @@ So, I have some thing for you guys
 >
 
 
-So, I figured out something on that thing:
+##  So, I figured out something on that thing:
 1. Outline covering each point [CoverPoint](#outline)
 2. Information on frameworks and tools that help us to finish our product [Tools and Frameworks](#tools-and-frameworks)
+3. Discuss methods for collecting and documenting Requirement [Collecting and Documenting](#discuss-methods-for-collecting-and-documenting-requirement)
 
 # Outline
 - Importance of Good Project Scope Management:
