@@ -3,6 +3,7 @@ Chapter 3: Scope Management
 # Project Scope Management Processes
 
 So, I have some thing for you guys
+
 []. Definition of Project Scope management
 
 []. Make slide for our presentation
