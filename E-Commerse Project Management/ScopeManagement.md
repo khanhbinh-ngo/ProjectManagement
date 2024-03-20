@@ -11,28 +11,31 @@ So, I have some thing for you guys
 
 >   There are our requirements of presentation:
 >>
->>   Understand the importance of good project scope management
+>>  1. Understand the importance of good project scope management
 >>
->>   Describe the process of planning scope management
+>>  2. Describe the process of planning scope management
 >>
->>   Discuss methods for collecting and documenting requirements to meet stakeholder needs and expectations
+>>  3. Discuss methods for collecting and documenting requirements to meet stakeholder needs and expectations
 >>
->>   Explain the scope definition process and describe the contents of a project scope statement
+>>  4. Explain the scope definition process and describe the contents of a project scope statement
 >>
->>  Discuss the process for creating a work breakdown structure using the analogy, top-down, bottom-up, and mind-mapping approaches
+>>  5. Discuss the process for creating a work breakdown structure using the analogy, top-down, bottom-up, and mind-mapping approaches
 >>
->>  Explain the importance of validating scope and how it relates to defining and controlling scope
+>>  6. Explain the importance of validating scope and how it relates to defining and controlling scope
 >>
->>  Understand the importance of controlling scope and approaches for preventing scope-related problems on Ecomerce projects
+>>  7. Understand the importance of controlling scope and approaches for preventing scope-related problems on Ecomerce projects
 >>
->>  Describe how software can assist in project scope management
->
+>>  8. Describe how software can assist in project scope management
+>>
+>> ---- 
 
+##  So, Here's some features where you can draw your atraction: 
 
-##  So, I figured out something on that thing:
 1. Outline covering each point [CoverPoint](#outline)
 2. Information on frameworks and tools that help us to finish our product [Tools and Frameworks](#tools-and-frameworks)
 3. Discuss methods for collecting and documenting Requirement [Collecting and Documenting](#discuss-methods-for-collecting-and-documenting-requirement)
+4. How software can assist in project scope management [Software assist PM](#software-assists-your-projectc) 
+5. Discuss the process for creating a work breakdown structure using the analogy, top-down, bottom-up, and mind-mapping approaches [Process for creating a work breakdown]()
 
 # Outline
 - Importance of Good Project Scope Management:
@@ -127,4 +130,5 @@ Use Cases and User Stories: Develop use cases and user stories to describe typic
   
 - Continuous Communication: Foster open communication channels with stakeholders throughout the project, seeking feedback and clarification on requirements as needed. Regularly review and refine requirements to accommodate changing priorities and evolving business needs.
 
-
+# Software assists your project
+#  
