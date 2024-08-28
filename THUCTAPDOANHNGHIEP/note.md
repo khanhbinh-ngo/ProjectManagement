@@ -296,7 +296,9 @@ Một vài thiết bị truyền dẫn trong mạng
 3.2. Kiến trúc phù hợp với tình hình và nhu cầu của doanh nghiệp.
 
 3.3. Các công nghệ được tiếp xúc trong thời gian thực tập
+
 3.3.1. GNS3
+
 3.3.1.1. Giới thiệu về GNS3
 
 3.3.2. Giám sát quản lý hệ thống mạng 24/7: Solarwin
@@ -308,26 +310,35 @@ Một vài thiết bị truyền dẫn trong mạng
 4.1. Giải pháp kiểm soát mạng an toàn.
 
 4.2. Chính sách quản lý hệ thống mạng
-4.2.1. PHân chia phòng/ban trong mạng quản trị dữ liệu
-4.2.2. Gateway trong từng phòng ban 
+
+4.2.1. PHân chia phòng/ban trong mạng quản trị dữ liệu  
+
+4.2.2. Gateway trong từng phòng ban  
+
 4.2.3. CHính sách kết nối từ hệ thống ra bên ngoài Internet
+
 4.2.4. CHính sách kết nối từ Internet vào trong hệ thống mạng 
-4.2.5. Chính sách định danh người dùng trong hệ thống
+
+4.2.5. Chính sách định danh người dùng trong hệ thống 
+
 4.2.6. Quản trị hệ thống và quản trị cấu hình mạng
+
 4.2.7. Các giao thức được sử dụng
+
 5. Công nghệ được sử dụng
 
-5.1. Công nghệ theo dõi và báo lỗi hệ thống mạng
+5.1. Công nghệ theo dõi và báo lỗi hệ thống mạng - Solarwind
 
 5.2. Đảm bảo hệ thống luôn vận hành ổn định - High Availability (HA)
 
 # Chương 3. Kinh nghiệm tại vị trí thực tập 
+
 1. Kinh nghiệm thực tế
-1.1.
     
 2. Kĩ năng học được trong quá trình thực tập
 
 # Chương 4. Tài liệu tham khảo
+
 [1]. Báo cáo tình hình ATTT (6 tháng đầu năm 2024) - VNPT Cyber Immunity.
 [2]. 
 [3].
