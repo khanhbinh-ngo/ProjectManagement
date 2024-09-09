@@ -1,26 +1,49 @@
-Foundations of User Experience Design - this course
+Câu 2: đánh giá về mối nguy khi sử dụng internet
 
-Start the UX Design Process: Empathize, Define, Ideate
+### 1. **Tấn công mạng (Cyber Attacks)**
+   - **Mô tả**: Các cuộc tấn công từ xa vào hệ thống máy tính hoặc mạng để đánh cắp dữ liệu, kiểm soát hệ thống, hoặc làm gián đoạn dịch vụ.
+   - **Ví dụ**:
+     - **Phishing**: Lừa đảo qua email hoặc trang web giả mạo để lấy cắp thông tin cá nhân, mật khẩu.
+     - **Ransomware**: Tấn công mã hóa dữ liệu và yêu cầu tiền chuộc để giải mã.
+     - **DDoS** (Distributed Denial of Service): Làm tê liệt dịch vụ web bằng cách gửi lượng lớn yêu cầu truy cập.
+   - **Nguy hiểm**: Những cuộc tấn công này có thể gây thiệt hại lớn về tài chính, mất mát dữ liệu, hoặc làm ngưng trệ hoạt động kinh doanh.
 
-Build Wireframes and Low-Fidelity Prototypes
+### 2. **Xâm phạm quyền riêng tư (Privacy Violations)**
+   - **Mô tả**: Thông tin cá nhân như tên, địa chỉ, số điện thoại, tài khoản ngân hàng có thể bị thu thập hoặc xâm phạm khi người dùng truy cập các trang web không an toàn hoặc qua các ứng dụng yêu cầu quyền truy cập thông tin không hợp lý.
+   - **Ví dụ**:
+     - **Theo dõi qua cookies**: Các trang web lưu trữ cookies để theo dõi hành vi người dùng mà không có sự đồng ý rõ ràng.
+     - **Thu thập dữ liệu qua ứng dụng**: Nhiều ứng dụng trên điện thoại thu thập dữ liệu cá nhân, bao gồm cả vị trí địa lý, danh bạ, và tin nhắn.
+   - **Nguy hiểm**: Dữ liệu cá nhân bị rò rỉ có thể dẫn đến các hành vi gian lận, tấn công qua mạng xã hội hoặc lạm dụng thông tin cá nhân để gây hại.
 
-Conduct UX Research and Test Early Concepts
+### 3. **Phần mềm độc hại (Malware)**
+   - **Mô tả**: **Malware** là các phần mềm được thiết kế để xâm nhập hoặc làm hại máy tính mà không có sự đồng ý của người dùng.
+   - **Ví dụ**:
+     - **Virus**: Tự nhân bản và lây nhiễm các tập tin trên máy tính.
+     - **Trojan**: Phần mềm được ngụy trang dưới dạng một chương trình hợp pháp, nhưng thực chất là công cụ để hacker truy cập vào hệ thống.
+     - **Spyware**: Theo dõi hoạt động của người dùng mà không bị phát hiện.
+   - **Nguy hiểm**: Malware có thể làm mất dữ liệu, đánh cắp thông tin nhạy cảm (như thông tin tài chính), hoặc biến hệ thống thành một phần của mạng botnet để thực hiện tấn công khác.
 
-Create High-Fidelity Designs and Prototypes in Figma
+### 4. **Tấn công Social Engineering**
+   - **Mô tả**: Kỹ thuật này dựa trên việc khai thác tâm lý của con người để lừa họ cung cấp thông tin nhạy cảm hoặc truy cập vào hệ thống (không thông qua bất kì một phương pháp kĩ thuật nào)
+   - **Ví dụ**:
+     - **Phishing email**: Email lừa đảo yêu cầu người dùng nhập thông tin đăng nhập vào trang web giả mạo.
+     - **Vishing** (Voice Phishing): Cuộc gọi giả mạo từ ngân hàng yêu cầu xác nhận thông tin tài khoản.
+     - **Baiting**: Sử dụng mồi nhử (như USB chứa phần mềm độc hại) để người dùng tự nguyện cắm vào máy tính.
+   - **Nguy hiểm**: Các tấn công này thường rất tinh vi và dễ lừa được người dùng không có kiến thức bảo mật, dẫn đến việc mất quyền truy cập hệ thống hoặc lộ thông tin nhạy cảm.
 
-Build Dynamic User Interfaces (UI) for Websites
+### 5. **Rò rỉ thông tin qua mạng xã hội (Social Media Risks)**
+   - **Mô tả**: Sử dụng mạng xã hội như Facebook, Twitter, hoặc Instagram có thể dẫn đến việc vô tình hoặc cố ý chia sẻ quá nhiều thông tin cá nhân hoặc hành vi không an toàn.
+   - **Ví dụ**:
+     - **Công khai thông tin nhạy cảm**: Đăng tải các thông tin như địa chỉ nhà, lịch trình cá nhân hoặc hình ảnh nhạy cảm.
+     - **Sử dụng sai thông tin**: Các tội phạm mạng sử dụng thông tin từ mạng xã hội để thực hiện hành vi lừa đảo hoặc tấn công.
+   - **Nguy hiểm**: Hacker có thể thu thập thông tin từ mạng xã hội để lừa đảo, tấn công, hoặc xây dựng hồ sơ nhằm khai thác thêm thông tin cá nhân.
 
-Design a User Experience for Social Good & Prepare for Jobs
-
-
-And then we have something for real. 
-
-Tips. 
-- Nói chung chưa có 
-
-
-
-
+### 6. **Rủi ro về bảo mật thông tin trên di động (Mobile Security Risks)**
+   - **Mô tả**: Sử dụng điện thoại di động để truy cập Internet mà không có biện pháp bảo mật phù hợp có thể làm tăng nguy cơ bị tấn công.
+   - **Ví dụ**:
+     - **Ứng dụng không an toàn**: Các ứng dụng trên điện thoại có thể chứa mã độc hoặc yêu cầu quyền truy cập thông tin không cần thiết.
+     - **Wi-Fi công cộng**: Kết nối qua mạng Wi-Fi không an toàn có thể tạo điều kiện cho các cuộc tấn công **man-in-the-middle** (MITM) hoặc nghe trộm dữ liệu.
+   - **Nguy hiểm**: Dữ liệu cá nhân, thông tin tài khoản hoặc tin nhắn có thể bị đánh cắp, hoặc điện thoại bị sử dụng như một thiết bị theo dõi.
 
 Câu 4. Một số chính sách bảo mật thông tin quan trọng
 
