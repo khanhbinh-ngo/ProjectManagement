@@ -266,12 +266,28 @@ Lớp vật lý quản lý việc chuyển dữ liệu thô dưới dạng bit k
 1.7.1.8. Làm thế nào để hệ thống được coi là đạt được HA?
     Tính sẵn sàng cao được coi là đạt được nếu thực hiện các bước sau:
     - Thiết kế hệ thống HA đơn giản, chi phí thấp và tuân thủ đầy đủ các quy ước. Cần hạn chế các điểm lỗi và tốt nhất là có chính sách dự phòng khi cần thiết.
-    - Xác ddinhj được mức độ sẵn sàng mà hệ thống có thể đáp ứng và chỉ số để áp dụng mức độ đo lường đó.
+    - Xác định được mức độ sẵn sàng mà hệ thống có thể đáp ứng và chỉ số để áp dụng mức độ đo lường đó.
     - Triển khai phần cứng một cách linh hoạt, hiệu quả và chất lượng.
     - Đảm bảo hệ thống chuyển sang hệ thống dự phòng luôn trong trạng thái sẵn sàng để khi xảy ra lỗi có thể thay thế hoặc tiến hành tiếp quản nhanh chóng.
     - Sử đụg số liệu và quan sát để theo đõi hiệu suất của hệ thống, nếu có bất kì vấn đề bất thường trong khi vận hành có thể điều chỉnh cho phù hợp.
 
     Tìm cách cải thiện hệ thống dựa trên những dữ liệu đã quan sát, thu nạp được để đảm bảo hệ thống luôn phát triển và đáp ứng tốt trong mọi điều kiện.
+1.7.2. Ứng dụng HA trong doanh nghiệp
+1.7.2.1. Cluster HA
+- Sử dụng nhiều máy chủ (Các node) để tạo thành một cụm (Cluster). Nếu một máy chủ gặp sự cố, máy chủ khác trong mạng sẽ tiếp tục tiếp quản công việc. Các node chia sert hông tin về tài nguyên dữ liệu, các dịch vụ được triển khai nhằm đảm bảo dịch vụ được thực hiện thông suốt. 
+[Đảm bảo tính sẵn sàng về điện cho các node trong cụm](image-2.png)
+
+- Trong tình hình thực tế của doanh nghiệp sẽ có những trường hợp nguồn điện cung cấp cho hệ thống bị trục trặc hoặc bị ngắt đột ngột, cần có phương pháp đảm bảo nguồn điện cấp cho hệ thống không bị gián đoạn.
+![Đảm bảo nguồn điện không bị gián đoạn quá lâu trong hệ thống](image-3.png)
+
+1.7.2.2. Data Replication HA
+- Doanh nghiệp cần lưu trữ một lượng lớn dữ liệu liên quan đến hoạt động kinh doanh, ví dụ như thông tin khách hàng, đối tác và các thông tin liên quan. Trong tình hình đặc biệt của doanh nghiệp hiện tại, vấn đề đảm bảo an toàn dữ liệu và có thể khôi phục sau sự cố là một vấn đề cần được ưu tiên hàng đầu. 
+
+1.7.2.3. Load Balancing HA
+
+1.7.2.4. Backup and Restore HA (For data and something more)
+
+1.7.2.5.
 
 1.8. Các thiết bị truyền dẫn trong mạng: Có 2 kiểu truyền dẫn trong mạng: 
 Kiểu 1: Đơn công (simplex): trong kiểu truyền dẫn này, thiết bị phát tín hiệu và thiết bị nhận tín hiệu được phân biệt rõ ràng, thiết bị phát chỉ dảm nhiệm vai trò phát tín hiệu, thiết bị thu chỉ dảm nhận vai trò nhận tín hiệu. Truyền hình là một ví dụ của kiểu truyền dẫn này. 
@@ -279,62 +295,58 @@ Kiểu 2: Bán song công (Half - Duplex): ttrong kiểu truyền dẫn nayfy, t
 Kiểu 3: Song công (Full - Duplex): Trong kiểu truyền dẫn này, tại cùng một thời điểm, thiết bị vừa có thể là thiiết bị phát vừa có thể là thiết bị thu. Điện thoại di động là một ví dụ điển hình cho kiểu truyền dẫn này.
 Nghiên cứu một số các loại thiết bị truyền dẫn trong mạng ở công ty cho phép sinh viên có cái nhìn tổng quan hơn về các thiết bị này. 
 
-Một vài thiết bị truyền dẫn trong mạng
+Một vài thiết bị truyền dẫn trong mạng được sử dụng 
 1.8.1. Converter
+- Kết nối mạng bằng cáp quang là cần thiết khi cả 2 thiết bị mạng vượt quá khả năng truyền của cáp đồng. Chuyển đổi cáp đồng sang cáp quang bằng cách sử dụng Converter quang cho phép 2 thiết bị mạng có cổng kết nối đồng được kết nối với nhau trong một khoảng cách rộng hơn thông qua hệ thống cáp quang.  
+- Converter quang có sẵn dưới dạng thiết bị chuyển mạch Layer 2 hoặc Layer 3 và có thể cung cấp được các thông tin tính năng chuyển đổi nâng cao như gắn thêm thẻ VLAN. Thông thường, chúng có các vấn đề liên quan nhằm hỗ trợ nhiều loại mạng và tốc độ dữ liệu khác nhau.
+- Bên cạnh đó, Converter cũng có thể sử dụng nhằm chuyển đổi các bước sóng phù hợp cho các ứng dụng ghép kênh phân chia theo bước sóng (WDM)
+- Công ty có sử dụng bộ converter quang Standalone và bộ Media converter Classis khung gầm:
+    ![Ảnh 1: Bộ Media Converter Classis](image-1.png)
+- Triển khai một vài bộ converter riêng biệt sẽ làm hoạt động triển khai và chỉnh sửa gặp nhiều khó khăn, chính vì thế cần có giải pháp đó là sử dụng một bộ khung để đảm bảo việc triển khai và bảo dưỡng trong hệ thống.
+- Converter quang có sẵn dưới dạng các đơn vị độc lập nhỏ gọn có thể được điều chỉnh và cấp cả nguồn AC hoặc DC. Các Converter quang độc lập được triển khai để chuyển đổi một kết nối đồng sang kết nối quang trong triển khai P2P.
+    ![Ảnh 2: Converter được sử dụng trong doanh nghiệp](image.png)
 
 2. An toàn mạng trong doanh nghiệp.
-
 
 2.1. Vấn đề an toàn mạng trong doanh nghiệp.
 
 2.2. Các công nghệ được sử dụng.
+2.2.1. Password Management Pro (PmP)
+- Đây là một giải pháp quản lý mật khẩu cao cấp được thiết kế để giúp các tổ chức bảo vệ, quản lý và giám sát mật khẩu của người dùng và thiết bị mạng một cách an toàn. Nó thường được sử dụng trong các môi trường doanh nghiệp và tổ chức có quy mô lớn, nơi quản lý mật khẩu phức tạp và yêu cầu tính bảo mật cao. 
+2.2.1.1. Định nghĩa và lý do sử dụng:
+- Việc sử dụng PmP giúp giảm thiểu rủi ro do mật khẩu yếu, rò rỉ mật khẩu hoạc quản lý mật khẩu thủ công là không hiệu quả.
+2.2.1.2. Ứng dụng của PmP trong thực tế doanh nghiệp
+- Nói chung lại thì với các môi trường yêu cầu bảo mật cao, việc sử dụng PmP là hợp lý: 
++ Quản lý mật khẩu của tài khoản người dùng, thiết bị và tài nguyên mạng.
++ Bảo vệ thông tin quan trọng và hỗ trợ giám sát truy cập.
++ Phân quyền người dùng dựa trên vai trò và chính sách bảo mật của tổ chức.
++ Tự động hóa việc thay đổi mật khẩu định kì để tăng cường bảo mật.
++ Quản lý mật khẩu của các hệ thống quan trọng như máy chủ, cơ sở dữ liệu và thiết bị mạng.
 
-3. Nghiên cứu hệ thống mạng doanh nghiệp.
+2.2.1.3. Yêu cầu thiết bị, phần mềm và các hạ tầng liên quan 
+Để có thể triển khai hệ thống Password Managgement Pro, một tổ chức cần có:
+- **Hệ thống máy chủ**: Máy chủ để có thể cài đặt và triển khai phần mềm PmP, đảm bảo có khả năng lưu trữ và xử lý dữ liệu một cách an toàn.
+- **Báo cáo và giám sát truy cập**: Cho phép theo dõi tất cả các hoạt động truy cập đến tài khoản và thiết bị.
+- **Phân quyền và quản lý**: Giới hạn quyền truy cập tới mật khẩu dựa trên vai trò của người dùng trong tổ chức.
 
-3.1. Kiến trúc mạng của doanh nghiệp.
+3. Chinhs sách quản lý hệ thống mạng
 
-3.2. Kiến trúc phù hợp với tình hình và nhu cầu của doanh nghiệp.
-
-3.3. Các công nghệ được tiếp xúc trong thời gian thực tập
-
-3.3.1. GNS3
-
-3.3.1.1. Giới thiệu về GNS3
-
-3.3.2. Giám sát quản lý hệ thống mạng 24/7: Solarwin
-
-3.3.3 Phần mềm bổ trợ quản lý hệ thống: PmP 
-
-4. Hướng giải quyết của doanh nghiệp.
-
-4.1. Giải pháp kiểm soát mạng an toàn.
-
-4.2. Chính sách quản lý hệ thống mạng
-
-4.2.1. PHân chia phòng/ban trong mạng quản trị dữ liệu  
-
-4.2.2. Gateway trong từng phòng ban  
-
-4.2.3. CHính sách kết nối từ hệ thống ra bên ngoài Internet
-
-4.2.4. CHính sách kết nối từ Internet vào trong hệ thống mạng 
-
-4.2.5. Chính sách định danh người dùng trong hệ thống 
-
-4.2.6. Quản trị hệ thống và quản trị cấu hình mạng
-
-4.2.7. Các giao thức được sử dụng
-
-5. Công nghệ được sử dụng
+4. Một số những nghệ được doanh nghiệp sử dụng
 
 5.1. Công nghệ theo dõi và báo lỗi hệ thống mạng - Solarwind
+- 
 
 5.2. Đảm bảo hệ thống luôn vận hành ổn định - High Availability (HA)
 
 # Chương 3. Kinh nghiệm tại vị trí thực tập 
 
 1. Kinh nghiệm thực tế
-    
+**Cái nhìn đầu tiên về vị trí việc làm tại doanh nghiệp**: Được tham gia vào quá trình làm việc của công ty đã cho em một cái nhìn tổng quan về vị trí việc làm trong hệ thống.
+- Được tham gia vào các hoạt động việc làm thực tế đã tích lũy được một lượng kinh nghiệm và em có thể sẵn sàng làm việc trong đa dạng các môi trường khác nhau.
+
+**Làm quen với các thiết bị thực tế**: Được làm việc với các thiết bị mạng trong doanh nghiệp lớn và uy tín cao. Việc làm quen với các chuẩn thiết bị lớn của Cisco ... và các nhãn hàng khác hợp tác cùng doanh nghiệp là các kiến thức vô cùng hữu ích trong việc hiểu và vận dụng các kiến thức đã được học trong nhà trường vào môi trường thực tế. 
+
+**Tiếp cận với các công nghệ quản trị mạng trong doanh nghiệp**   
 2. Kĩ năng học được trong quá trình thực tập
 
 # Chương 4. Tài liệu tham khảo
@@ -344,4 +356,5 @@ Một vài thiết bị truyền dẫn trong mạng
 [3].
 [4].
 [5].
+
 
