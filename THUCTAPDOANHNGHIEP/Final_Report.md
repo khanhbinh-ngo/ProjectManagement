@@ -9,17 +9,16 @@
 
     Trước những biến động khó lường của tình hình tấn công mạng cũng như sự phát triển của khoa học công nghệ đòi hỏi các tổ chức và doanh nghiệp luôn phải sẵn sàng cho việc đảm bảo an toàn thông tin nội bộ doanh nghiệp và thông tin của khách hàng. 
 
-    Thời gian thực tập ở doanh nghiệp, em mong muốn xây dựng được một góc nhìn toàn diện và đầy đủ về tình hình triển khai một hệ thống mạng, nhằm đảm bảo đáp ứng nhu cầu sử dụng mạng và đảm bảo an toàn thông tin trong doanh nghiệp.
+    Thời gian thực tập ở doanh nghiệp, em mong muốn xây dựng được một góc nhìn toàn diện và đầy đủ về tình hình triển khai một hệ thống mạng, nhằm đảm bảo đáp ứng nhu cầu sử dụng mạng và an toàn thông tin trong doanh nghiệp.
 
 ## Danh mục hình ảnh
 ## Danh mục bảng
 
 # Chương 1. Giới thiệu chung
-1. Giới thiệu chương trình thực tập
 
-2. Giới thiệu đơn vị thực tập
-2.1. Tên công ty thực tập: Công ty cổ phần giải pháp CNTT Tân Cảng (TCIS)
-2.2. Giới thiệu chung: 
+1. Giới thiệu đơn vị thực tập
+1.1. Tên công ty thực tập: Công ty cổ phần giải pháp CNTT Tân Cảng (TCIS)
+1.2. Giới thiệu chung: 
     Công ty Cổ phần Giải pháp CNTT Tân Cảng Tiền thân là phòng CNTT thuộc Tổng Công ty Tân Cảng Sài Gòn (Saigon Netport Coporation - SNP)
     
     Được thành lập năm 1996, trải qua 28 năm hoạt động, phòng CNTT Tân Cảng Sài Gòn đã thực hiện thành công các ứng dụng CNTT trong quản lý, điều hành của Tổng công ty. Nổi bật là việc tích hợp và triển khai thành công phần mềm điều hành và khai thác cảng TOPX (RBS Úc) kết nối với phần mềm quản lý container CMS, qua đó tự động hóa việc điều hành khai thác cảng, tăng năng suất giải phóng tàu, giảm thời gian giao nhân container. Nghiên cứu và phát triển ứng dụng thành công phần mềm quản lý kho CFS mới, áp dụng CNTT trong quản lý vật tư, quản lý tài chính, lao động, quản lý tiền lương; triển khai các ứng dụng giá trị gia tăng như tra cứu thông tin về container qua tin nhắn điện thoại di động (SMS), qua website; qua ứng dụng truyền nhận số liệu EDI với các hãng tàu ... đã không ngừng nâng cao chất lượng dịch vụ của Tổng công ty. 
@@ -28,7 +27,7 @@
 
     Nhằm đáp ứng yêu cầu nghiên cứu, ứng dụng, triển khai có hiệu quả các giải pháp CNTT trong lĩnh vực khai  thác cảng biển, ngày 15/11/2010, Tổng công ty Tân Cảng Sài Gòn đã quyết định thành lập Công ty Cổ phần Giải pháp CNTT Tân Cảng (TCIS). Với đội ngũ nhân sự chất lượng lượng cao, được đào tạo cơ bản và thường xuyên huấn luyện nâng cao từ các hãng Microsoft, Oracle, Cisco, SUN...cùng với kinh nghiệm qua 15 năm thực hiện thành công các ứng dụng và giải pháp công nghệ thông tin tại Tổng Công ty, TCIS đã và đang hướng đến mục tiêu trở thành nhà cung cấp dịch vụ, giải pháp CNTT chuyên nghiệp, chất lượng và uy tín hàng đầu trong lĩnh vực khai khác cảng biển, kho bãi, hậu cần, dây chuyền cung ứng.... 
 
-2.3. Hoạt động kinh doanh:
+1.3. Hoạt động kinh doanh:
 - Liên kết, hợp tác chiến lược với các đối tác để xây dựng các ứng dụng CNTT theo tiêu chuẩn quốc tế;
 - Tư vấn phân tích, thiết kế và triển khai tích hợp các hệ thống thông tin quản lý doanh nghiệp và các hệ thống quản lý trong lĩnh vực cảng biển, kho bãi, hậu cần dây chuyền cung ứng…
 - Cung cấp và cho thuê các thiết bị CNTT, thiết bị chuyên dụng trong lĩnh vực cảng biển, kho bãi, dây chuyền cung ứng…;
@@ -37,14 +36,14 @@
 - Xử lý, cho thuê dữ liệu;
 - Cung ứng nguồn nhân lực CNTT trong và ngoài nước.
 
-2.4. Thông tin liên lạc;
+1.4. Thông tin liên lạc;
 - Trụ sở chính: 722 Điện Biên Phủ, P.22, Q. Bình Thạnh, TP.HCM
 - Số điện thoại: (84 -24)3 747 6666
 - Fax: 3512 4049  
 
-3. Giới thiệu vị trí thực tập:
-- Vị trí thực tập: nhân viên quản lý mạng máy tính
-4. Kế hoạch thực tập:
+2. Giới thiệu vị trí thực tập:
+- Vị trí thực tập: nhân viên quản lý mạng máy tính tại công ty
+3. Kế hoạch thực tập:
     4.1. Thời gian thực tập
     - Thời gian bắt đầu: 22/7/2024
     - Thời gian kết thúc: 30/9/2024
@@ -85,21 +84,21 @@ Kết nối trong mạng LAN thường được thiết lập thông qua cáp m�
 
 - Phạn vi sử dụng LAN: LAN có phạm vi sử dụng hạn chế trong một khu vực như văn phòng, nhà riêng, trường học, phòng game, hoặc doanh nghiệp. Thông thường phạm vi của mạng LAN không vượt quá 100m
 
-- Các kiểu (các kiến trúc) trong LAN
-// Bảng biểu gì đó // 
+- Các kiểu (Topology) trong LAN
+// Bảng thể hiện các kiểu trong mạng LAN // 
 
 **Các tiêu chuẩn của mạng LAN**:
 Các tiêu chuẩn của LAN Ethernet chỉ định hệ thống cáp và tín hiệu cả lớp liên kết vật lý và dữ liệu của mô hình tham chiếu OSI: 
 
-// Hình ảnh //
+![Hình ảnh các tiêu chuẩn của mạng LAN]()
 
 -	IEEE chia lớp liên kết dữ liệu OSI thành 2 lớp con riêng biệt:
-o	ĐIều khiển liên kết logic (LLC): Chuyển tiếp lên lớp mạng
+**ĐIều khiển liên kết logic (LLC)**: Chuyển tiếp lên lớp mạng
 Cho phép một phần của lớp liên kết dữ liệu (Data Link) hoạt động độc lập với cấc công nghệ hiện có Lớp này cung cấp tính linh hoạt trong các dịch vụ cho các giao thức lớp mạng ở trên nó, đồng thời giao tiếp hiệu quả với nhiều loại công nghệ MAC và Lớp 1 bên dưới nó. LLC, với tư cách là một lớp con, tham gia vào quá trình đóng gói.
             Một LLC header cho lớp liên kết dữ liệu biết phải làm gì với một gói khi nó nhận được một khung. Ví dụ, một máy chủ nhận một khung và sau đó nhìn vào LLC header để hiểu rằng gói được dành cho giao thức IP ở lớp mạng.
             Ethernet header ban đầu (trước IEEE 802.2 và 802.3) không sử dụng LLC header. Thay vào đó, nó sử dụng một trường loại trong Ethernet header để xác định giao thức Lớp 3 đang được mang trong khung Ethernet.
 
-o	MAC: Chuyển xuống lớp vật lý
+**MAC**: Chuyển xuống lớp vật lý
  MAC Sublayer xử lý quyền truy cập phương tiện vật lý. Đặc tả MAC của IEEE 802.3 xác định địa chỉ MAC, địa chỉ này nhận dạng duy nhất nhiều thiết bị ở lớp liên kết dữ liệu. Lớp con MAC duy trì một bảng địa chỉ MAC (địa chỉ vật lý) của các thiết bị. Để tham gia vào mạng, mỗi thiết bị phải có một địa chỉ MAC duy nhất.
 
 
@@ -135,7 +134,7 @@ o	MAC: Chuyển xuống lớp vật lý
 Trong những năm gần đây, wireless LANs đã chiếm một vị trí cực kì quan trọng trong thị trường mạng LAN, ngày càng có nhiều tổ chức tin rằng mạng không dây là một bổ sung không thể thiếu cho mạng LAN có dây truyền thống. Để đáp ứng các yêu cầu về tính di động, dễ dàng thay đổi vị trí, mạng Ad-Hoc và khả năng phủ sóng ở những nơi rất khó để kéo dây tới.
 -	Chúng ta có thể xem xét ba loại mạng LAN chính, được phân loại theo công nghệ truyền dẫn thông tin như sau: Hồng ngoại, 
 -	Từ cách đặt tên, mạng wireless LANs được sử dụng trong một môi trường truyền dẫn không dây. Đến gần đây, sau khi đã có thể giải quyết được những vấn đề tồn tại của nó như khả năng truyền tải kém, giá thành cao và lo ngại các vấn đề về bảo mật thông tin cũng như cần thiết các hạ tầng phù hợp... thì mạng LAN đã phát triển và trở thành một phần không thể thiếu của doanh nghiệp. 
--	Giới thiệu về Wifi: WiFi (Wireless Fidenlity, là công nghệ cho phép người dùng có thể truy cập vào Internet dựa trên sóng vô tuyến không dây mà không cần thông qua các kết nối vật lý như dây mạng. Nói cách khác, wifi phát ra các loại sóng tương tự như sóng điện thoại hay sóng radio để truyền tín hiệu tới các thiết bị điện tử như TV, điện thoại, hay máy tính bảng và các thiết bị có thể kết nối tới sóng wifi.
+-	Giới thiệu về Wifi: WiFi (Wireless Fidenlity), là công nghệ cho phép người dùng có thể truy cập vào Internet dựa trên sóng vô tuyến không dây mà không cần thông qua các kết nối vật lý như dây mạng. Nói cách khác, wifi phát ra các loại sóng tương tự như sóng điện thoại hay sóng radio để truyền tín hiệu tới các thiết bị điện tử như TV, điện thoại, hay máy tính bảng và các thiết bị có thể kết nối tới sóng wifi.
 
 
 // Bảng các chuẩn wifi được sử dụng phổ biến hiện nay
@@ -329,28 +328,28 @@ Một vài thiết bị truyền dẫn trong mạng được sử dụng
 - **Báo cáo và giám sát truy cập**: Cho phép theo dõi tất cả các hoạt động truy cập đến tài khoản và thiết bị.
 - **Phân quyền và quản lý**: Giới hạn quyền truy cập tới mật khẩu dựa trên vai trò của người dùng trong tổ chức.
 
-3. Chinhs sách quản lý hệ thống mạng
-
-4. Một số những nghệ được doanh nghiệp sử dụng
-
-5.1. Công nghệ theo dõi và báo lỗi hệ thống mạng - Solarwind
-- 
-
-5.2. Đảm bảo hệ thống luôn vận hành ổn định - High Availability (HA)
+3. Chính sách quản lý hệ thống mạng
 
 # Chương 3. Kinh nghiệm tại vị trí thực tập 
 
 1. Kinh nghiệm thực tế
-**Cái nhìn đầu tiên về vị trí việc làm tại doanh nghiệp**: Được tham gia vào quá trình làm việc của công ty đã cho em một cái nhìn tổng quan về vị trí việc làm trong hệ thống.
+**Cái nhìn đầu tiên về vị trí việc làm tại doanh nghiệp**
+- Được tham gia vào quá trình làm việc của công ty đã cho em một cái nhìn tổng quan về vị trí việc làm trong hệ thống.
 - Được tham gia vào các hoạt động việc làm thực tế đã tích lũy được một lượng kinh nghiệm và em có thể sẵn sàng làm việc trong đa dạng các môi trường khác nhau.
 
-**Làm quen với các thiết bị thực tế**: Được làm việc với các thiết bị mạng trong doanh nghiệp lớn và uy tín cao. Việc làm quen với các chuẩn thiết bị lớn của Cisco ... và các nhãn hàng khác hợp tác cùng doanh nghiệp là các kiến thức vô cùng hữu ích trong việc hiểu và vận dụng các kiến thức đã được học trong nhà trường vào môi trường thực tế. 
+**Vận dụng và làm việc với các thiết bị mạng**
+- Được làm việc với các thiết bị mạng trong doanh nghiệp lớn và uy tín cao. Việc làm quen với các chuẩn thiết bị lớn của Cisco ... và các nhãn hàng khác hợp tác cùng doanh nghiệp là các kiến thức vô cùng hữu ích trong việc hiểu và vận dụng các kiến thức đã được học trong nhà trường vào môi trường thực tế. 
+- Được làm việc với thiết bị mạng mới và được sản xuất bởi các doanh nghiệp lớn, giúp hiểu rõ và vận dụng được những kiến thức đã học được tại nhà trường.
+**Tiếp cận với các công nghệ quản trị mạng trong doanh nghiệp**
+- Trong quá trình thực tập tại công ty, em được tiếp cận và làm việc với 2 phần mềm quản lý là Solarwind (để quản lý cấu hình mạng: auto backup switch config và giám sát, chẩn đoán lưu lượng mạng). Và PmP (Password management Pro) nhằm quản lý mạt khẩu một cách hiệu quả và bảo mật.
+- Đây là những kinh nghiệm cần thiết và quý báu, qua đó nâng cao được tay nghề và khả năng sử dụng các công nghệ trong quản trị một hệ thống mạng. 
 
-**Tiếp cận với các công nghệ quản trị mạng trong doanh nghiệp**   
-2. Kĩ năng học được trong quá trình thực tập
+2. Kĩ năng học được trong quá trình thực tập.
+
+- Xây dựng một cái nhìn tổng quan về hệ thống mạng, kiến trúc mạng và cách vận hành của hệ thống trong doanh nghiệp. 
+- Được làm việc với các thiết bị mạng thực tế, hiểu được vai trò và vị trí của chúng trong một hệ thống mạng, qua đó xây dựng được góc nhìn quản trị mạng rõ ràng hơn. Bên cạnh đó, những kĩ năng được đàn anh đi trước truyền dạy lại đã giúp em hiểu thêm về ngành và cách thức làm việc trong một môi trường chuyên nghiệp, năng động và sáng tạo.
 
 # Chương 4. Tài liệu tham khảo
-
 [1]. Báo cáo tình hình ATTT (6 tháng đầu năm 2024) - VNPT Cyber Immunity.
 [2]. 
 [3].

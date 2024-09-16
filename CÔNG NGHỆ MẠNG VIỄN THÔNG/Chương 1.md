@@ -9,7 +9,7 @@
 
 
 # Chương 1. Cơ sở lý thuyết viễn thông 
-## I. Khái niệm cơ bản trong viễn thông. 
+### I. Khái niệm cơ bản trong viễn thông. 
 - Viễn thông (trong tiếng aanh là Telecommunications)
     Những vấn đề liên quan đến truyền thông tin giữa các đối tượng qua một khoảng cách nhất định.
     Thu phát tín hiệu qua các phương thức truyền thông khác nhau
@@ -22,3 +22,8 @@
 - Số hóa tín hiệu tuần tự 
 - Các loại mạng viễn thông 
 - Các loại kênh truyền.
+
+
+
+# Chương 2. Tìm hiểu về một số trạng thái kênh truyền
+###
