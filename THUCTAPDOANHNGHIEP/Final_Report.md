@@ -1,4 +1,7 @@
 ### **Lời cảm ơn**
+Qua quá trình học tập và rèn luyện tại trường Đại học Công nghệ Thông tin để trau dồi kiến thức và kĩ năng, em nhận được rất nhiều sự quan tâm, giúp đỡ của quý thầy cô, gia đình và bạn bè. Với lòng biết ơn sâu sắc nhất, em muốn cảm ơn đến nhà trường, thầy cô Khoa Mạng máy tính và Truyền thông dữ liệu đã truyền đạt vốn kiến thức nền tảng cho em trong suốt quá trình học tập.
+Em xin gửi lời cảm ơn chân thành đến thầy Lê Anh Tuấn - người đã theo dõi sát sao và tận tình trong quá trình hướng dẫn cũng như bổ sung và sửa chữa những sai sót trong quá trình thực hiện báo cáo thực tập. 
+Bên cạnh đó, em cũng gửi lời cảm ơn sâu sắc đến ban lãnh đạo và toàn thể anh/ chị công nhân viên của công ty dã tạo điều kiện để em có cơ hội được thực tập trong một môi trường chuyên nghiệp và năng động. Nhờ sự chỉ dẫn và giúp đỡ tận tình của anh [] cùng với các anh/chị đồng nghiệp... em đã tiếp thu được rất nhiều kiến thức quan trọng về quản trị mạng, quản lý hạ tầng mạng cũng như học được rất nhiều các kĩ năng quan trọng trong vị trí là một Chuyên viên quản trị mạng máy tính.
 
 ### **Lý do chọn đề tài**
     Theo báo cáo tình hình an toàn thông tin trong nước 6 tháng đầu năm 2024, tình hình an toàn thông tin toàn cầu tiếp tục diễn biến phức tạp và đáng lo ngại. Các cuộc tấn công đang gia tăng cả về mức độ số lượng và cả mức độ tinh vi, nhắm vào rất nhiều các cơ quan chính phủ, doanh nghiệp và các tổ chức cá nhân.
@@ -18,6 +21,7 @@
 
 #### 1. **Giới thiệu đơn vị thực tập**
 ##### 1.1. Giới thiệu chung
+
 Tên công ty: Công ty Cổ phần Giải pháp CNTT Tân Cảng, tiền thân là phòng CNTT thuộc Tổng Công ty Tân Cảng Sài Gòn (Saigon Netport Coporation - SNP)
 
 Được thành lập năm 1996, trải qua 28 năm hoạt động, phòng CNTT Tân Cảng Sài Gòn đã thực hiện thành công các ứng dụng CNTT trong quản lý, điều hành của Tổng công ty. Nổi bật là việc tích hợp và triển khai thành công phần mềm điều hành và khai thác cảng TOPX (RBS Úc) kết nối với phần mềm quản lý container CMS, qua đó tự động hóa việc điều hành khai thác cảng, tăng năng suất giải phóng tàu, giảm thời gian giao nhân container. Nghiên cứu và phát triển ứng dụng thành công phần mềm quản lý kho CFS mới, áp dụng CNTT trong quản lý vật tư, quản lý tài chính, lao động, quản lý tiền lương; triển khai các ứng dụng giá trị gia tăng như tra cứu thông tin về container qua tin nhắn điện thoại di động (SMS), qua website; qua ứng dụng truyền nhận số liệu EDI với các hãng tàu ... đã không ngừng nâng cao chất lượng dịch vụ của Tổng công ty. 
@@ -45,15 +49,15 @@ Nhằm đáp ứng yêu cầu nghiên cứu, ứng dụng, triển khai có hi�
 
 #### 3. Kế hoạch thực tập
 ##### 2.1. Thời gian thực tập
-    - Thời gian bắt đầu: 22/7/2024
-    - Thời gian kết thúc: 30/9/2024
-
+- Thời gian bắt đầu: 22/7/2024
+- Thời gian kết thúc: 30/9/2024
 ##### 2.2. Các giai đoạn thực tập*
 - *Giai đoạn 1*: Nghiên cứu chuyên sâu các kiến thức
 - *Giai đoạn 2*: Tìm hiểu và làm quen với một số platform mà doanh nghiệp sử dụng
 - *Giai đoạn 3*: Nghiên cứu cơ cấu mạng doanh nghiệp
 - *Giai đoạn 4*: Các công việc thực tế tại doanh nghiệp
 - *Giai đoạn 5*: Viết báo cáo thực tập doanh nghiệp
+// Bảng về giai đoạn thực tập doanh nghiệp 
 
 # **Chương 2**. NGHIÊN CỨU LÝ THUYẾT
 **I. KIẾN THỨC NỀN TẢNG**
@@ -71,9 +75,16 @@ Quản lý mạng bao gồm nhiều chức năng quản trị, gồm lập kế 
 - Cáu hình các giao thức mạng và các giao thức bảo mật mạng khác nhau.
 - Áp dụng các bản vá bảo mật và cập nhật chương trình cơ sở của hạ tầng mạng, chẳng hạn như bộ định tuyến, bộ tập trung, bộ chuyển mạch và tường lửa. 
 - Đánh giá điểm yếu của mạng.
-- Đannhs giá chất lượng và dung lượng để tăng hoặc giảm dung lượng mạng, quản lý tránh lãng phí tài nguyên.
+- Đánh giá chất lượng và dung lượng để tăng hoặc giảm dung lượng mạng, quản lý tránh lãng phí tài nguyên.
 ##### 1.2. Kiến trúc OSI/ISO
 
+Mô hình OSI (Open System Inteconnection Reference Model) - Tạm dịch là mô hình tham chiếu kết nối các hệ thống mở, hay còn gọi là mô hình 7 tầng OSI. 
+
+Mô hình này là mô tả 7 tầng của một hệ thống mạng máy tính sử dụng để giao tiếp qua mạng. Đây là mô hình đầu tiên trong truyền thông mạng, được tất cả các công ty máy tính và viễn thông lớn trên thế giới sử dụng 
+
+**Tại sao mô hình này lại quan trọng?**
+- *Hiểu biết chung về những hệ thống phức tạp*: Nó giúp các kĩ sư có thể tổ chức và mô hình hóa kiến trúc mạng của các hệ thống mạng phức tạp. Bằng cách chia lớp dựa trên các chức năng chính, nó giúp quản lý và hiểu biết hệ thống một cách rõ ràng.
+- *Nghiên cứu và chuẩn hóa nhanh hơn*: Khi xây dựng một hệ thống mới, kĩ sư có thể hiểu rõ công việc của mình thông qua mô hình OSI. Điều này giúp họ phát triển công nghệ cần thiết để tạo ra được một thệ thống mạng hoạt động một cách hiệu quả. Đồng thời tạo điều kiện để phát triển cũng như sửa lỗi hệ thống nhanh chóng bằng cách chuẩn hóa các quy trình và giao thức đẫ được chuẩn hóa.
 ##### 1.3. *Tìm hiểu về mạng LAN
 LAN (Local Area Network) là một hệ thống mạng máy tính cho phép các thiết bị kết nối và giao tiếp với nhau nhằm chia sẻ dữ liệu. 
 
@@ -107,7 +118,7 @@ MAC Sublayer xử lý quyền truy cập phương tiện vật lý. Đặc tả 
 
 // Bảng biến dị của mạng LAN
 
-// Chú thích cho bảng biến dị 
+// Giải thích các thuộc tính của bảng.
 
 ###### 1.3.2. Các thiết bị mạng
 -	Được chia thành các lớp và các thiết bị tiêu biểu cho các lớp đó được thể hiện dưới đây:
@@ -128,13 +139,11 @@ MAC Sublayer xử lý quyền truy cập phương tiện vật lý. Đặc tả 
 -	 Các thiết bị truyền dẫn đóng vai trò rất quan trọng trong việc xây dựng và vận hành mạng máy tính. Giúp các thiết bị trong mạng có thể giao tiếp được với nhau và trao đổi dữ liệu một cách hiệu quả. 
 
 ###### 1.3.3 Wireless Network
-
-**Giới thiệu mạng không dây**: Công nghệ wireless LAN
+**Giới thiệu mạng không dây** (Công nghệ wireless LAN)
 Trong những năm gần đây, wireless LANs đã chiếm một vị trí cực kì quan trọng trong thị trường mạng LAN, ngày càng có nhiều tổ chức tin rằng mạng không dây là một bổ sung không thể thiếu cho mạng LAN có dây truyền thống. Để đáp ứng các yêu cầu về tính di động, dễ dàng thay đổi vị trí, mạng Ad-Hoc và khả năng phủ sóng ở những nơi rất khó để kéo dây tới.
 -	Chúng ta có thể xem xét ba loại mạng LAN chính, được phân loại theo công nghệ truyền dẫn thông tin như sau: Hồng ngoại, 
 -	Từ cách đặt tên, mạng wireless LANs được sử dụng trong một môi trường truyền dẫn không dây. Đến gần đây, sau khi đã có thể giải quyết được những vấn đề tồn tại của nó như khả năng truyền tải kém, giá thành cao và lo ngại các vấn đề về bảo mật thông tin cũng như cần thiết các hạ tầng phù hợp... thì mạng LAN đã phát triển và trở thành một phần không thể thiếu của doanh nghiệp. 
 -	Giới thiệu về Wifi: WiFi (Wireless Fidenlity), là công nghệ cho phép người dùng có thể truy cập vào Internet dựa trên sóng vô tuyến không dây mà không cần thông qua các kết nối vật lý như dây mạng. Nói cách khác, wifi phát ra các loại sóng tương tự như sóng điện thoại hay sóng radio để truyền tín hiệu tới các thiết bị điện tử như TV, điện thoại, hay máy tính bảng và các thiết bị có thể kết nối tới sóng wifi.
-
 
 // Bảng các chuẩn wifi được sử dụng phổ biến hiện nay
 
