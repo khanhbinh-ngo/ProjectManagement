@@ -332,28 +332,42 @@ Một vài thiết bị truyền dẫn trong mạng được sử dụng
 - **Báo cáo và giám sát truy cập**: Cho phép theo dõi tất cả các hoạt động truy cập đến tài khoản và thiết bị.
 - **Phân quyền và quản lý**: Giới hạn quyền truy cập tới mật khẩu dựa trên vai trò của người dùng trong tổ chức.
 
-### 3. Chính sách quản lý hệ thống mạng
-
+### 3. Bảo mật hệ thống mạng máy tính 
+#### 3.1. Phân chia phòng ban / Mạng quản trị thiết bị
+**Phân chia phòng ban**: Trong một doanh nghiệp, phân chia phòng ban trong quản trị mạng là việc tổ chức và phân tách các bộ phận trong doanh nghiệp thành các đơn vị mạng riêng biệt nhằm đảm bảo tính bảo mật, hiệu suất và quản lý dễ dàng hơn.
+**Một số yếu tố chính trong phân chia phòng ban**: 
+#### 3.2. Gateway từng phòng ban
+#### 3.3. Chính sách kết nối từng phòng ban
+#### 3.4. Chính sách kết nối internet
+#### 3.5. Định danh người dùng
 # **Chương 3**. KINH NGHIỆM TẠI VỊ TRÍ THỰC TẬP
-
 ### 1. Kinh nghiệm thực tế
 #### 1.1. Tham gia vào quá trình làm việc thực tế tại công ty
 - Được tham gia vào quá trình làm việc của công ty đã cho em một cái nhìn tổng quan về vị trí việc làm trong hệ thống.
 - Được tham gia vào các hoạt động việc làm thực tế đã tích lũy được một lượng kinh nghiệm và em có thể sẵn sàng làm việc trong đa dạng các môi trường khác nhau.
-
 #### 1.2. Vận dụng và làm việc với các thiết bị mạng
 - Được làm việc với các thiết bị mạng trong doanh nghiệp lớn và uy tín cao. Việc làm quen với các chuẩn thiết bị lớn của Cisco ... và các nhãn hàng khác hợp tác cùng doanh nghiệp là các kiến thức vô cùng hữu ích trong việc hiểu và vận dụng các kiến thức đã được học trong nhà trường vào môi trường thực tế. 
 - Được làm việc với thiết bị mạng mới và được sản xuất bởi các doanh nghiệp lớn, giúp hiểu rõ và vận dụng được những kiến thức đã học được tại nhà trường.
 #### 1.3. Tiếp cận với các công nghệ quản trị mạng trong doanh nghiệp
 - Trong quá trình thực tập tại công ty, em được tiếp cận và làm việc với 2 phần mềm quản lý là Solarwind (để quản lý cấu hình mạng: auto backup switch config và giám sát, chẩn đoán lưu lượng mạng). Và PmP (Password management Pro) nhằm quản lý mạt khẩu một cách hiệu quả và bảo mật.
 - Đây là những kinh nghiệm cần thiết và quý báu, qua đó nâng cao được tay nghề và khả năng sử dụng các công nghệ trong quản trị một hệ thống mạng. 
-
 ### 2. Kĩ năng học được trong quá trình thực tập.
-#### 2.1. Góc nhìn về quản trị mạng
-- Được làm việc trong môi trường doanh nghiệp đã giúp em xây dựng được góc nhìn tổng quan và rõ nét hơn về cách triển khai cũng như bố trí các thiết bị mạng trong hệ thống, qua đó có thêm khả năng và kinh nghiệm triển khai, quản lý và xử lý các vấn đề liên quan đến các thiết bị trong cơ sở hạ tầng mạng.
-- Một trong những kĩ năng quan trọng nhất trong việc vận hành và duy trì hệ thống đó chính là việc có thể phát hiện và khắc phục vấn đề phát sinh sớm và kịp thời. Công ty đã tạo điều kiện cho em để có thể học hỏi các công nghệ và quy trình xử lý sự cố từ khâu tiếp nhận thông tin đến khâu xử lý yêu cầu của khách hàng.
-#### 2.2. Kĩ năng quản lý thiết bị mạng
-- Các thiết bị mạng cơ bản như Router, Switch Layer 2, Switch Layer 3... Bên cạnh đó, em được làm việc với các thiết bị mạng khác như Load Balancer, Converter trong thực tế làm việc như thế nào
+#### 2.1. Kết quả
+Kì thực tập vừa qua đã tạo cơ hội cho em có thể ứng dụng được các kiến thức lý thuyết vào thực tế cũng như trang bị thêm cho em nhiều kiến thức thực tiễn và kĩ năng quan trọng trong công việc. Sau đây là phần tổng kết ngắn về những kĩ năng và kiến thức em đã học hỏi được trong thời gian vừa qua
+**Về kiến thức chuyên môn**: 
+Nắm vững và củng cố dược các nguyên lý của việc thiết lập và quản lý mạng máy tính, được học cách cài đặt và duy trì các thiết bị mạng như router, switch và firewall, ngoài ra việc áp dụng các kiến thức đã học được từ nhà trường vào trong môi trường thực tế giúp bàn thân hiểu rõ cũng như xây dựng được góc nhìn và cách triển khai, bố trí các thiết bị trong hệ thống.
+Nhờ đó có thêm khả năng và kinh nghiệm triển khai, quản lý cũng như xử lý các vấn đề liên quan đến thiết bị trong cơ sở hạ tầng mạng. 
+**Về kĩ năng**
+Các kĩ năng mà em đã trau dồi trong quá trình thực tập:
+- **Hiểu biết thực tiễn về hệ thống công nghệ thông tin**: Thực tập giúp em tiếp xúc với hệ thống công nghệ thông tin được sử dụng trong doanh nghiệp. Qua đó em có cơ hội tìm hiểu cách các hệ thống này được thiết kế, triển khai và quản lý.
+- **Áp dụng lý thuyết vào thực tiễn**: Thực tập giúp em có thể áp dụng kiến thức lý thyết đã học vào thực tế, từ đó hiểu hơn về các nguyên lý và lý thuyết được áp dụng thực tế trong môi trường doanh nghiệp.
+- **Học hỏi thêm được về an ninh mạng và bảo mật hệ thống**: Đây là một phần quan trọng trong quản trị hệ thống. Thực tập đã giúp em hiểu hơn về các thách thức, nguy cơ và giải pháp liên quan đến bảo vệ dữ liệu và bảo vệ hệ thống.
+- **Nắm bắt xu hướng công nghệ mới**: Thực tập tại doanh nghiệp cũng cung cấp cơ hội để nắm bắt các xu hướng công nghệ mới và hiểu cách chúng ảnh hưởng đến hệ thống
+- **Mentoring và hướng dẫn chuyên nghiệp**: Thường xuyên tương tác với các đồng nghiệp có kinh nghiệp trong ngành giúp em có được sự hướng dẫn và mentoring quý giá, đồng thời mở rộng network của mình.
+#### 2.2. Định hướng sau thực tập
+- Sau 2 tháng thực tập, bản thân em đã thu được những kết quả nhất định, cả về kiến thức, kinh nghiệm cũng như rát nhiều kĩ năng cần thiết, thông qua quá trình thực tập đó, em được tìm hiểu về những công nghệ mới, nhưng kiến thức mà trước đây em vẫn chưa có cơ hội được tiếp xúc mang đến cho em những trải nghiệm rất thú vị.
+- Sự hỗ trợ, hướng dẫn vaf giúp đỡ tận hình của các anh chị đồng nghiệp trong **Công ty Cổ phần Giải pháp CNTT Tân Cảng** xuyên suốt quá trình thực tập tại **Công ty Cổ phần Giải pháp CNTT Tân Cảng** sẽ giúp em rất nhiều trong môi trường thực tế trên con đường tiếp theo.
+
 # **Chương 4**. TÀI LIỆU THAM KHẢO
 [1]. Báo cáo tình hình ATTT (6 tháng đầu năm 2024) - VNPT Cyber Immunity.
 [2]. 
