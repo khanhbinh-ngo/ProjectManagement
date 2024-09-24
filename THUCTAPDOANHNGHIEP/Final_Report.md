@@ -277,7 +277,7 @@ Tìm cách cải thiện hệ thống dựa trên những dữ liệu đã quan 
 #### 1.6.2. Ứng dụng HA trong doanh nghiệp
 ##### 1.6.2.1. Cluster HA
 - Sử dụng nhiều máy chủ (Các node) để tạo thành một cụm (Cluster). Nếu một máy chủ gặp sự cố, máy chủ khác trong mạng sẽ tiếp tục tiếp quản công việc. Các node chia sert hông tin về tài nguyên dữ liệu, các dịch vụ được triển khai nhằm đảm bảo dịch vụ được thực hiện thông suốt. 
-[Đảm bảo tính sẵn sàng về điện cho các node trong cụm](image-2.png)
+![Đảm bảo tính sẵn sàng về điện cho các node trong cụm](image-2.png)
 
 - Trong tình hình thực tế của doanh nghiệp sẽ có những trường hợp nguồn điện cung cấp cho hệ thống bị trục trặc hoặc bị ngắt đột ngột, cần có phương pháp đảm bảo nguồn điện cấp cho hệ thống không bị gián đoạn.
 ![Đảm bảo nguồn điện không bị gián đoạn quá lâu trong hệ thống](image-3.png)
