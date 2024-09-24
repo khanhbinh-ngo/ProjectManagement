@@ -1,26 +1,33 @@
-### **Lời cảm ơn**
+## **Lời cảm ơn**
 Qua quá trình học tập và rèn luyện tại trường Đại học Công nghệ Thông tin để trau dồi kiến thức và kĩ năng, em nhận được rất nhiều sự quan tâm, giúp đỡ của quý thầy cô, gia đình và bạn bè. Với lòng biết ơn sâu sắc nhất, em muốn cảm ơn đến nhà trường, thầy cô Khoa Mạng máy tính và Truyền thông dữ liệu đã truyền đạt vốn kiến thức nền tảng cho em trong suốt quá trình học tập.
-Em xin gửi lời cảm ơn chân thành đến thầy Lê Anh Tuấn - người đã theo dõi sát sao và tận tình trong quá trình hướng dẫn cũng như bổ sung và sửa chữa những sai sót trong quá trình thực hiện báo cáo thực tập. 
+
+Em xin gửi lời cảm ơn chân thành đến thầy Lê Anh Tuấn - người đã theo dõi sát sao và tận tình trong quá trình hướng dẫn cũng như bổ sung và sửa chữa những sai sót trong quá trình thực hiện báo cáo thực tập.
+
 Bên cạnh đó, em cũng gửi lời cảm ơn sâu sắc đến ban lãnh đạo và toàn thể anh/ chị công nhân viên của công ty dã tạo điều kiện để em có cơ hội được thực tập trong một môi trường chuyên nghiệp và năng động. Nhờ sự chỉ dẫn và giúp đỡ tận tình của anh [] cùng với các anh/chị đồng nghiệp... em đã tiếp thu được rất nhiều kiến thức quan trọng về quản trị mạng, quản lý hạ tầng mạng cũng như học được rất nhiều các kĩ năng quan trọng trong vị trí là một Chuyên viên quản trị mạng máy tính.
 
-### **Lý do chọn đề tài**
-    Theo báo cáo tình hình an toàn thông tin trong nước 6 tháng đầu năm 2024, tình hình an toàn thông tin toàn cầu tiếp tục diễn biến phức tạp và đáng lo ngại. Các cuộc tấn công đang gia tăng cả về mức độ số lượng và cả mức độ tinh vi, nhắm vào rất nhiều các cơ quan chính phủ, doanh nghiệp và các tổ chức cá nhân.
+## **Lý do chọn đề tài**
+Theo báo cáo tình hình an toàn thông tin trong nước 6 tháng đầu năm 2024, tình hình an toàn thông tin toàn cầu tiếp tục diễn biến phức tạp và đáng lo ngại. Các cuộc tấn công đang gia tăng cả về mức độ số lượng và cả mức độ tinh vi, nhắm vào rất nhiều các cơ quan chính phủ, doanh nghiệp và các tổ chức cá nhân.
 
-    VNPT ghi nhận xu hướng tấn công mã hóa dữ liệu  với mục đích tống tiền các doanh nghiệp (ransomware attack) tăng cao đáng báo động. Số lượng các cuộc tấn công trên toàn thế giới đã tăng gấp 1,3 lần so với cùng kỳ 2023, riêng khu vực Việt Nam đã tăng gần gấp 2 lần và để lại nhiều ảnh hưởng nghiêm trọng đến cả uy tín, tài sản của nhiều doanh nghiệp, tổ chức. Số lượng các cuộc tấn công mạng tại Việt Nam tăng hơn 60% so với năm 2023. Số lượng mã độc mới được phát triển đãng tăng hơn 52%, các nhóm tin tặc với mục đích tài chính có nhiều kỹ thuật và thủ đoạn mới, các chiến dịch cũng có sự đầu tư hơn tiêu biểu như các nhóm GoldFactory, Ducktail.
+VNPT ghi nhận xu hướng tấn công mã hóa dữ liệu  với mục đích tống tiền các doanh nghiệp (ransomware attack) tăng cao đáng báo động. Số lượng các cuộc tấn công trên toàn thế giới đã tăng gấp 1,3 lần so với cùng kỳ 2023, riêng khu vực Việt Nam đã tăng gần gấp 2 lần và để lại nhiều ảnh hưởng nghiêm trọng đến cả uy tín, tài sản của nhiều doanh nghiệp, tổ chức. Số lượng các cuộc tấn công mạng tại Việt Nam tăng hơn 60% so với năm 2023. Số lượng mã độc mới được phát triển đãng tăng hơn 52%, các nhóm tin tặc với mục đích tài chính có nhiều kỹ thuật và thủ đoạn mới, các chiến dịch cũng có sự đầu tư hơn tiêu biểu như các nhóm GoldFactory, Ducktail.
 
-    Các lỗ hổng mới năm 2024 gia tăng 64,33% so với với cùng kỳ năm 2023, đặc biệt số lượng các lỗ hổng có mức độ nghiêm trọng cao cũng tăng cao. Tuy vậy số lượng lỗ hổng 0day bị khai thác ngoài tự nhiên đã giảm khoảng 50%. Trong số đó các hạ tầng thường tồn tại các lỗ hổng Security Misconfiguration ~28,05%, XSS và Broken Access Control (BAC) hơn 19%, tỉ lệ này không thay đổi nhiều so với năm 2023. [1]
+Các lỗ hổng mới năm 2024 gia tăng 64,33% so với với cùng kỳ năm 2023, đặc biệt số lượng các lỗ hổng có mức độ nghiêm trọng cao cũng tăng cao. Tuy vậy số lượng lỗ hổng 0day bị khai thác ngoài tự nhiên đã giảm khoảng 50%. Trong số đó các hạ tầng thường tồn tại các lỗ hổng Security Misconfiguration ~28,05%, XSS và Broken Access Control (BAC) hơn 19%, tỉ lệ này không thay đổi nhiều so với năm 2023. [1]
 
-    Trước những biến động khó lường của tình hình tấn công mạng cũng như sự phát triển của khoa học công nghệ đòi hỏi các tổ chức và doanh nghiệp luôn phải sẵn sàng cho việc đảm bảo an toàn thông tin nội bộ doanh nghiệp và thông tin của khách hàng. 
+Trước những biến động khó lường của tình hình tấn công mạng cũng như sự phát triển của khoa học công nghệ đòi hỏi các tổ chức và doanh nghiệp luôn phải sẵn sàng cho việc đảm bảo an toàn thông tin nội bộ doanh nghiệp và thông tin của khách hàng. 
 
-    Thời gian thực tập ở doanh nghiệp, em mong muốn xây dựng được một góc nhìn toàn diện và đầy đủ về tình hình triển khai một hệ thống mạng, nhằm đảm bảo đáp ứng nhu cầu sử dụng mạng và an toàn thông tin trong doanh nghiệp.
-### **Danh mục hình ảnh**
+Thời gian thực tập ở doanh nghiệp, em mong muốn xây dựng được một góc nhìn toàn diện và đầy đủ về tình hình triển khai một hệ thống mạng, nhằm đảm bảo đáp ứng nhu cầu sử dụng mạng và an toàn thông tin trong doanh nghiệp.
+## **Danh mục hình ảnh**
 
-### **Danh mục bảng**
+// Danh mục hình ảnh
 
-## **Chương 1**. GIỚI THIỆU CHUNG
+## **Danh mục bảng**
 
-#### 1. **Giới thiệu đơn vị thực tập**
-##### 1.1. Giới thiệu chung
+// Danh mục bảng 
+
+# **Chương 1**. GIỚI THIỆU CHUNG
+
+### 1. **Giới thiệu đơn vị thực tập**
+
+#### 1.1. Giới thiệu chung
 
 Tên công ty: Công ty Cổ phần Giải pháp CNTT Tân Cảng, tiền thân là phòng CNTT thuộc Tổng Công ty Tân Cảng Sài Gòn (Saigon Netport Coporation - SNP)
 
@@ -30,7 +37,7 @@ Với những kết quả đã đạt được trong ứng dụng CNTT vào ho�
 
 Nhằm đáp ứng yêu cầu nghiên cứu, ứng dụng, triển khai có hiệu quả các giải pháp CNTT trong lĩnh vực khai  thác cảng biển, ngày 15/11/2010, Tổng công ty Tân Cảng Sài Gòn đã quyết định thành lập Công ty Cổ phần Giải pháp CNTT Tân Cảng (TCIS). Với đội ngũ nhân sự chất lượng lượng cao, được đào tạo cơ bản và thường xuyên huấn luyện nâng cao từ các hãng Microsoft, Oracle, Cisco, SUN...cùng với kinh nghiệm qua 15 năm thực hiện thành công các ứng dụng và giải pháp công nghệ thông tin tại Tổng Công ty, TCIS đã và đang hướng đến mục tiêu trở thành nhà cung cấp dịch vụ, giải pháp CNTT chuyên nghiệp, chất lượng và uy tín hàng đầu trong lĩnh vực khai khác cảng biển, kho bãi, hậu cần, dây chuyền cung ứng.... 
 
-##### 1.2. Hoạt động kinh doanh:
+#### 1.2. Hoạt động kinh doanh:
 - Liên kết, hợp tác chiến lược với các đối tác để xây dựng các ứng dụng CNTT theo tiêu chuẩn quốc tế;
 - Tư vấn phân tích, thiết kế và triển khai tích hợp các hệ thống thông tin quản lý doanh nghiệp và các hệ thống quản lý trong lĩnh vực cảng biển, kho bãi, hậu cần dây chuyền cung ứng…
 - Cung cấp và cho thuê các thiết bị CNTT, thiết bị chuyên dụng trong lĩnh vực cảng biển, kho bãi, dây chuyền cung ứng…;
@@ -39,30 +46,29 @@ Nhằm đáp ứng yêu cầu nghiên cứu, ứng dụng, triển khai có hi�
 - Xử lý, cho thuê dữ liệu;
 - Cung ứng nguồn nhân lực CNTT trong và ngoài nước.
 
-##### 1.3. Thông tin liên lạc;
+#### 1.3. Thông tin liên lạc;
 - Trụ sở chính: 722 Điện Biên Phủ, P.22, Q. Bình Thạnh, TP.HCM
 - Số điện thoại: (84 -24)3 747 6666
 - Fax: 3512 4049  
 
-#### 2. **Giới thiệu vị trí thực tập**
+### 2. **Giới thiệu vị trí thực tập**
 - Vị trí thực tập: nhân viên quản lý mạng máy tính.
 
-#### 3. Kế hoạch thực tập
-##### 2.1. Thời gian thực tập
+### 3. Kế hoạch thực tập
+#### 3.1. Thời gian thực tập
 - Thời gian bắt đầu: 22/7/2024
 - Thời gian kết thúc: 30/9/2024
-##### 2.2. Các giai đoạn thực tập*
-- *Giai đoạn 1*: Nghiên cứu chuyên sâu các kiến thức
-- *Giai đoạn 2*: Tìm hiểu và làm quen với một số platform mà doanh nghiệp sử dụng
-- *Giai đoạn 3*: Nghiên cứu cơ cấu mạng doanh nghiệp
-- *Giai đoạn 4*: Các công việc thực tế tại doanh nghiệp
-- *Giai đoạn 5*: Viết báo cáo thực tập doanh nghiệp
-// Bảng về giai đoạn thực tập doanh nghiệp 
+#### .2. Các giai đoạn thực tập*
+- *Giai đoạn 1 Thời gian: Từ 22/7 đến 5/8*: Nghiên cứu chuyên sâu các kiến thức  
+- *Giai đoạn 2 Thời gian: Từ 6/8 đến 19/8*: Tìm hiểu và làm quen với một số platform mà doanh nghiệp sử dụng
+- *Giai đoạn 3 Thời gian: Từ 19/8 đến 26/8*: Nghiên cứu cơ cấu mạng doanh nghiệp
+- *Giai đoạn 4 Thời gian: Từ 27/8 đế 9/9*: Các công việc thực tế tại doanh nghiệp
+- *Giai đoạn 5 Thời gian: Từ 9/9 đến 23/9*: Viết báo cáo thực tập doanh nghiệp
 
 # **Chương 2**. NGHIÊN CỨU LÝ THUYẾT
 **I. KIẾN THỨC NỀN TẢNG**
-#### 1. Hệ thống mạng:
-##### 1.1. Tổng quan về mạng máy tính
+### 1. Hệ thống mạng:
+#### 1.1. Tổng quan về mạng máy tính
 - **Mạng máy tính (Computer Network)**: là mạng viễn thông kĩ thuật số được sử dụng để kết nối nhiều máy tính với nhau thông qua các thết bị kết nối mạng và phương tiện truyền thông (Giao thức mạng, môi trường truyền dẫn) bằng một cấu trúc và các máy tính trong mạng có thể trao đổi thông tin với nhau.
 - **Quản trị mạng máy tính (Network Administration)**: Là công việc nhuawmf quản lý, giám sát và duy trì, bảo mật và phục vụ mạng cho một tổ chức. Tuy nhiên, các nhiệm vụ và thủ tục cụ thể có thể sẽ tùy thuộc vào quy mô và mô hình của tổ chức.
 - **Các công việc của quản trị mạng máy tính:** bao gồm giám sát mạng, duy trì chất lượng và bảo mật mạng. Giám sát là điều cần thiết để theo dõi các lưu lượng mạng truy cập bất thường, theo dõi tình trạng cơ sở hạ tầng và các thiết bị được kết nối mạng.
@@ -76,7 +82,7 @@ Quản lý mạng bao gồm nhiều chức năng quản trị, gồm lập kế 
 - Áp dụng các bản vá bảo mật và cập nhật chương trình cơ sở của hạ tầng mạng, chẳng hạn như bộ định tuyến, bộ tập trung, bộ chuyển mạch và tường lửa. 
 - Đánh giá điểm yếu của mạng.
 - Đánh giá chất lượng và dung lượng để tăng hoặc giảm dung lượng mạng, quản lý tránh lãng phí tài nguyên.
-##### 1.2. Kiến trúc OSI/ISO
+#### 1.2. Kiến trúc OSI/ISO
 
 Mô hình OSI (Open System Inteconnection Reference Model) - Tạm dịch là mô hình tham chiếu kết nối các hệ thống mở, hay còn gọi là mô hình 7 tầng OSI. 
 
@@ -85,7 +91,7 @@ Mô hình này là mô tả 7 tầng của một hệ thống mạng máy tính 
 **Tại sao mô hình này lại quan trọng?**
 - *Hiểu biết chung về những hệ thống phức tạp*: Nó giúp các kĩ sư có thể tổ chức và mô hình hóa kiến trúc mạng của các hệ thống mạng phức tạp. Bằng cách chia lớp dựa trên các chức năng chính, nó giúp quản lý và hiểu biết hệ thống một cách rõ ràng.
 - *Nghiên cứu và chuẩn hóa nhanh hơn*: Khi xây dựng một hệ thống mới, kĩ sư có thể hiểu rõ công việc của mình thông qua mô hình OSI. Điều này giúp họ phát triển công nghệ cần thiết để tạo ra được một thệ thống mạng hoạt động một cách hiệu quả. Đồng thời tạo điều kiện để phát triển cũng như sửa lỗi hệ thống nhanh chóng bằng cách chuẩn hóa các quy trình và giao thức đẫ được chuẩn hóa.
-##### 1.3. *Tìm hiểu về mạng LAN
+#### 1.3. *Tìm hiểu về mạng LAN
 LAN (Local Area Network) là một hệ thống mạng máy tính cho phép các thiết bị kết nối và giao tiếp với nhau nhằm chia sẻ dữ liệu. 
 
 **Kết nối trong mạng LAN**
@@ -116,10 +122,6 @@ MAC Sublayer xử lý quyền truy cập phương tiện vật lý. Đặc tả 
 
 **Các kiểu (Topology) của mạng LAN
 
-// Bảng biến dị của mạng LAN
-
-// Giải thích các thuộc tính của bảng.
-
 ###### 1.3.2. Các thiết bị mạng
 -	Được chia thành các lớp và các thiết bị tiêu biểu cho các lớp đó được thể hiện dưới đây:
 -	Thiết bị truyền dẫn trong mạng máy tính là các thiết bị có khả năng truyền dẫn dữ liệu từ các thiết bị này đến các thiết bị khác trong mạng. Các thết bị truyền dẫn trong mạng có thể phân loại theo nhiều tiêu chí khác nhau, trong đó tiêu chí phổ biến nhất đó chính là phân loại theo các lớp trong mô hình OSI.
@@ -145,7 +147,7 @@ Trong những năm gần đây, wireless LANs đã chiếm một vị trí cực
 -	Từ cách đặt tên, mạng wireless LANs được sử dụng trong một môi trường truyền dẫn không dây. Đến gần đây, sau khi đã có thể giải quyết được những vấn đề tồn tại của nó như khả năng truyền tải kém, giá thành cao và lo ngại các vấn đề về bảo mật thông tin cũng như cần thiết các hạ tầng phù hợp... thì mạng LAN đã phát triển và trở thành một phần không thể thiếu của doanh nghiệp. 
 -	Giới thiệu về Wifi: WiFi (Wireless Fidenlity), là công nghệ cho phép người dùng có thể truy cập vào Internet dựa trên sóng vô tuyến không dây mà không cần thông qua các kết nối vật lý như dây mạng. Nói cách khác, wifi phát ra các loại sóng tương tự như sóng điện thoại hay sóng radio để truyền tín hiệu tới các thiết bị điện tử như TV, điện thoại, hay máy tính bảng và các thiết bị có thể kết nối tới sóng wifi.
 
-// Bảng các chuẩn wifi được sử dụng phổ biến hiện nay
+![Bảng 2: Các chuẩn Wifi được sử dụng phổ biến hiện nay]()
 
 #### 1.4. Tìm hiểu về mạng WAN
 
@@ -193,17 +195,13 @@ Lớp vật lý quản lý việc chuyển dữ liệu thô dưới dạng bit k
 **WAN hoạt động như thế nào**
 - Doanh nghiệp có tài nguyên chạy trong nhiều trung tâm dữ liệu tại chỗ, văn phòng chi nhánh và các đám mây riêng ảo (VPC). Để kết nối các tài nguyên này, doanh nghiệp sử dụng nhiều kết nối mạng và dịch vụ Internet. Vì các công ty không thể xây dựng cơ sở hạ tầng mạng của riêng họ trên nhiều ranh giới địa lý, vì thế nên họ thường sẽ thuê từ nhà cung cấp dịch vụ bên thứ ba.
 - Sau đây là một số kiểu kết nối phổ biến
-    - Đường dây thuê
-    Đây là một kết nối mạng trực tiếp mà bạn có thể thuê từ một nhà cung cấp mạng lớn (ví dụ như IPS ). Nó có thể kết nối hai điểm đầu cuối LAN với nhau. ĐƯờng dây thuê không nhất thiết phải là đường truyền vật lý. ĐÓ có thể là các kết nối ảo mà nhà cung cấp dịch vụ thực hiện trên cơ sở hạ tầng mạng khác. 
++ Đường dây thuê: Đây là một kết nối mạng trực tiếp mà bạn có thể thuê từ một nhà cung cấp mạng lớn (ví dụ như IPS ). Nó có thể kết nối hai điểm đầu cuối LAN với nhau. ĐƯờng dây thuê không nhất thiết phải là đường truyền vật lý. ĐÓ có thể là các kết nối ảo mà nhà cung cấp dịch vụ thực hiện trên cơ sở hạ tầng mạng khác. 
 
-    - Truyền liên mạng
-    Đây là một cách để mã hóa các dữ liệu khi chúng di chuyển qua Internet ccoong cộng. Trong quá trình truyền liên mạng, bạn sử dụng kết nối Internet để truy cập vaiof máy chủ của doanh nghiệp của quốc gia khác. Tuy nhiên bạn giửu các gói dữ liệu dưới dạng gói tin được đóng gói, tạo thành các mạng ảo (VPN)
++ Truyền liên mạng: Đây là một cách để mã hóa các dữ liệu khi chúng di chuyển qua Internet ccoong cộng. Trong quá trình truyền liên mạng, bạn sử dụng kết nối Internet để truy cập vaiof máy chủ của doanh nghiệp của quốc gia khác. Tuy nhiên bạn giửu các gói dữ liệu dưới dạng gói tin được đóng gói, tạo thành các mạng ảo (VPN)
 
-    - Chuyển đổi nhãn đa giao thức
-    Chuyển mạch nhãn đa giao thức (MultiProtocol Label Switching - MPLS) là một kĩ thuật định tuyến lưu lượng dữ liệu dựa trên các nhãn được xác định trước, kĩ thuật này cố gắng định tuyến lưu lượng dữ liệu quan trọng qua các đường dẫn mạng ngắn hơn hoặc nhanh hơn, quia đó cải thiện hiệu suất mạng. Nó hoạt động giữa lớp 2 và lớp 3 của kiến trúc OSI. Bạn có thể sử dụng kĩ thuật này để tạo một mạng hợp nhất trên các cơ sở hạ tầng mạng hiện có, ví dụ như IPv6, chuiyeenr tiếp khung, ATM hoặc Ethernet. Bạn có thể sử dụng đường dây thuê MPLS hoặc MPLS với VPN để tạo ra một mạng hiệu quả và an toàn
++ Chuyển đổi nhãn đa giao thức: Chuyển mạch nhãn đa giao thức (MultiProtocol Label Switching - MPLS) là một kĩ thuật định tuyến lưu lượng dữ liệu dựa trên các nhãn được xác định trước, kĩ thuật này cố gắng định tuyến lưu lượng dữ liệu quan trọng qua các đường dẫn mạng ngắn hơn hoặc nhanh hơn, quia đó cải thiện hiệu suất mạng. Nó hoạt động giữa lớp 2 và lớp 3 của kiến trúc OSI. Bạn có thể sử dụng kĩ thuật này để tạo một mạng hợp nhất trên các cơ sở hạ tầng mạng hiện có, ví dụ như IPv6, chuiyeenr tiếp khung, ATM hoặc Ethernet. Bạn có thể sử dụng đường dây thuê MPLS hoặc MPLS với VPN để tạo ra một mạng hiệu quả và an toàn
 
 #### 1.5. Tìm hiểu về SD - WAN
-
 - Mạng diện rộng do phần mềm xác định (Software-defined Wide Area Network – SD – WAN) là bước tiến xa hơn của công nghệ MPLS. Công nghệ này giúp tóm tắt các chức năng của MPLS thành một phần mềm. Vì hoạt đọng trên các kết nối Broadband Internet (Internet băng thông rộng), nên SD – WAN thường có thể giúp giảm chi phí mạng và mang lại tính linh hoạt cao hơn so với kết nối cố định. 
 
 - MPLS so sánh với SD – WAN
@@ -221,28 +219,21 @@ Quản lý luồng lưu lượng bao gồm các kỹ thuật giảm thiểu lưu
 
 - Nén hoặc tạo tệp dữ liệu ở định dạng zip.
 
-- Tăng tốc giao thức
-Một số giao thức WAN có tính chất là một cuộc “trò chuyên” – conversation – nghĩa là chúng có thể yêu cầu nhiều hoạt động truyền dữ liệu qua lại cho một yêu cầu kết nối duy nhất. Ví dụ: các máy Client và Server đều có thể gửi lại dữ liệu xác nhận rằng họ đã nhận được dữ liệu. Quá trình tăng tốc cho giao thức giao tiếp sẽ kết hợp các thông tin liên lạc qua các giao thức giao tiếp để giảm số lượng gói tin cần truyền qua mạng, qua đó tăng tốc độ của kết nối.
+- Tăng tốc giao thức: Một số giao thức WAN có tính chất là một cuộc “trò chuyên” – conversation – nghĩa là chúng có thể yêu cầu nhiều hoạt động truyền dữ liệu qua lại cho một yêu cầu kết nối duy nhất. Ví dụ: các máy Client và Server đều có thể gửi lại dữ liệu xác nhận rằng họ đã nhận được dữ liệu. Quá trình tăng tốc cho giao thức giao tiếp sẽ kết hợp các thông tin liên lạc qua các giao thức giao tiếp để giảm số lượng gói tin cần truyền qua mạng, qua đó tăng tốc độ của kết nối.
 
-- Tốc độ và giới hạn kết nối
-Các nhà quản trị mạng có thể giới hạn số lượng liên kết truy cập Internet đang mở, số lượng người dùng và lượng băng thông mỗi người dùng có thể truy cập tại mỗi thời điểm. Ví dụ, các nhà quản trị mạng có thể đặt ra các quy tắc để ngăn chặn nhân viên phát tán các thông tin trên mạng WAN của doanh nghiệp
+- Tốc độ và giới hạn kết nối: Các nhà quản trị mạng có thể giới hạn số lượng liên kết truy cập Internet đang mở, số lượng người dùng và lượng băng thông mỗi người dùng có thể truy cập tại mỗi thời điểm. Ví dụ, các nhà quản trị mạng có thể đặt ra các quy tắc để ngăn chặn nhân viên phát tán các thông tin trên mạng WAN của doanh nghiệp
     
-- Phân đoạn mạng
-Quá trình định hình lưu lượng sẽ kiểm soát luồng dữ liệu cho các ứng dụng cụ thể, giúp phân chia băng thông mạng một cách tối ưu giữa các ứng dụng. Nhà mạng có thể chọn ưu tiên một số ứng dụng quan trọng để cải thiện hiệu suất của chúng.
+- Phân đoạn mạng: Quá trình định hình lưu lượng sẽ kiểm soát luồng dữ liệu cho các ứng dụng cụ thể, giúp phân chia băng thông mạng một cách tối ưu giữa các ứng dụng. Nhà mạng có thể chọn ưu tiên một số ứng dụng quan trọng để cải thiện hiệu suất của chúng.
 
-#### 1.6. Kiến trúc mạng trong doanh nghiệp.
-##### 1.6.1 Mô hình mạng trong doanh nghiệp
-##### 1.6.2. Giao thức được sử dụng trong mô hình mạng
-
-#### 1.7. Đảm bảo hệ thống mạng trong doanh nghiệp.
-##### 1.7.1. High Availability (HA)
-###### 1.7.1.1. Giới thiệu về HA và hoạt động trong doanh nghiệp
+### 1.6. Đảm bảo hệ thống mạng trong doanh nghiệp.
+#### 1.6.1. High Availability (HA)
+##### 1.6.1.1. Giới thiệu về HA và hoạt động trong doanh nghiệp
 
 High Availability (HA) hay “tính sẵn sàng cao” với khả năng để thiết bị, server hoạt đọng liên tuc, không lỗi trong một khoảng thời gian nhất định. Hiểu một cách đơn giản thì HA hoạt động nhằm đảm bảo hệ thống đáp ứng tốt yêu cầu và luôn trong tư thế sẵn sàng đến 99,99 %.
 
 HA được áp dụng ở nhiều lĩnh vực khác nhau, từ quân sự, chăm sóc sức khỏe và các ngành công nghiệp... Cuộc sống con người ngày càng phụ thuộc vào các hệ thống đó. Nếu HA được thiết kế bài bản và kiểm tra theo đúng quy trình, đảm bảo kiểm tra kĩ lưỡng trước khi đưa vào sử dụng để luôn đáp ứng tính khả dụng mà các nhà lưu trữ cũng như chuyển đổi dự phòng của hệ thống HA.
 
-###### 1.7.1.2. HA hoạt động như thế nào
+##### 1.6.1.2. HA hoạt động như thế nào
 
 Trong thực tế, không phải bất cứ hệ thống nào cũng luôn đảm bảo hoạt động 100%, do đó với những hệ thống có tính sẵn sàng cao sẽ được hoạt động với hiệu suất tối đa nhằm đảm bảo tính liên tục và bền bỉ cho hệ thống. Một khi thiết kế hệ thống đáp ứng được HA, chúng ta phải tuân thủ theo 3 nguyên tắc sau: 
 
@@ -252,16 +243,16 @@ Trong thực tế, không phải bất cứ hệ thống nào cũng luôn đảm
 
 *Nguyên tắc 3*: Khả năng phát hiện lỗi: KHi thiết kế một hệ thống trong một thời diểm thì việc cân bằng tải là cực kì quan tr ọng để đảm bảo được tính sẵn sàng cao. Khối lượng công việc sẽ được cân bằng tải sắp xếp và phân bố để không một tài nguyên nào bị quá tải.
 
-###### 1.7.1.4. Làm thế nào để có thể đạt được HA trong môi trường doanh nghiệp? 
+##### 1.6.1.4. Làm thế nào để có thể đạt được HA trong môi trường doanh nghiệp? 
 
 Để đáp ứng được các yêu cầu từ bộ cân bằng tải, các Server trong hệ thống HA được phân bố trong các cụm và được tổ chức theo kiến trúc tầng. Trong trường hợp một Server thuộc một cụm nào đó bị lỗi thì sẽ dược chuyển tới một Server khác thay thế và sẵn sàng tiếp quản công việc. Nếu trong một hệ thống phức tạp thì tính sẵn sàng cao khó lòng được đảm bảo vì sẽ xuất hiện nhiều điểm lỗi hơn so với hệ thống mạng đơn giản hơn.
 
-###### 1.7.1.5. Các nguyên tắc để thiết kế và duy trì một hệ thống HA hoàn thiện:
+##### 1.6.1.5. Các nguyên tắc để thiết kế và duy trì một hệ thống HA hoàn thiện:
 
-###### 1.7.1.6. Vì sao áp dụng HA lại quan trọng trong hệ thống:
+##### 1.6.1.6. Vì sao áp dụng HA lại quan trọng trong hệ thống:
 Hệ thống HA thường là những hệ thống ảnh hưởng và tác động sâu rộng với đời sống của con người về những mặt như sức khỏe, kinh tế và phúc lợi xã hội và tiếp tế thực phẩm,.... nếu vì một nguyên nhân nào đó khiến các hệ thống trên giảm hiệu suất hoạt động thì doanh nghiệp và cuộc sống của người dân sẽ gặp rất nhiều khó khăn.
 
-###### 1.7.1.7. HA được đo lường và đánh giá như thế nào? 
+##### 1.6.1.7. HA được đo lường và đánh giá như thế nào? 
 Tính sẵn sàng của một hệ thống được đo tương ứng khi hệ thống đó không bao giờ bị lỗi và hoạt động 100%. Tỉ lệ % sẵn sàng được tính bằng công thức: Tính sẵn sàng = (Số phút tính trong một tháng - số phút ngừng hoạt động) * 100 / Phút trong một tháng. Dưới đây là các loại số liệu được dùng để đo tính sẵn sàng:
     
 - Thời gian trung bình giữa các lần hỏng hóc ( - MTBF): Tức là trong một hệ thống khoảng thời gian giữa hai lần xảy ra sự cố là bao lâu.
@@ -272,7 +263,7 @@ Tính sẵn sàng của một hệ thống được đo tương ứng khi hệ t
 
 Các hệ thống nội bộ hoặc nhà cung cấp dịch vụ sẽ sử dụng những số liệu nói trên để thực hiện cam kết với khác hàng như trong thỏa thuận mức độ dịch vụ (SLA). SLA là các hợp đồng trong đó nhà cung cấp dịch vụ đưa ra tỉ lệ phần trăm sẵn sàng của hệ thống cho khách hàng tham khảo.
 
-###### 1.7.1.8. Làm thế nào để hệ thống được coi là đạt được HA?
+##### 1.6.1.8. Làm thế nào để hệ thống được coi là đạt được HA?
 
 Tính sẵn sàng cao được coi là đạt được nếu thực hiện các bước sau:
 
@@ -283,24 +274,22 @@ Tính sẵn sàng cao được coi là đạt được nếu thực hiện các 
 - Sử đụg số liệu và quan sát để theo đõi hiệu suất của hệ thống, nếu có bất kì vấn đề bất thường trong khi vận hành có thể điều chỉnh cho phù hợp.
 
 Tìm cách cải thiện hệ thống dựa trên những dữ liệu đã quan sát, thu nạp được để đảm bảo hệ thống luôn phát triển và đáp ứng tốt trong mọi điều kiện.
-##### 1.7.2. Ứng dụng HA trong doanh nghiệp
-###### 1.7.2.1. Cluster HA
+#### 1.6.2. Ứng dụng HA trong doanh nghiệp
+##### 1.6.2.1. Cluster HA
 - Sử dụng nhiều máy chủ (Các node) để tạo thành một cụm (Cluster). Nếu một máy chủ gặp sự cố, máy chủ khác trong mạng sẽ tiếp tục tiếp quản công việc. Các node chia sert hông tin về tài nguyên dữ liệu, các dịch vụ được triển khai nhằm đảm bảo dịch vụ được thực hiện thông suốt. 
 [Đảm bảo tính sẵn sàng về điện cho các node trong cụm](image-2.png)
 
 - Trong tình hình thực tế của doanh nghiệp sẽ có những trường hợp nguồn điện cung cấp cho hệ thống bị trục trặc hoặc bị ngắt đột ngột, cần có phương pháp đảm bảo nguồn điện cấp cho hệ thống không bị gián đoạn.
 ![Đảm bảo nguồn điện không bị gián đoạn quá lâu trong hệ thống](image-3.png)
 
-###### 1.7.2.2. Data Replication HA
+##### 1.6.2.2. Data Replication HA
 - Doanh nghiệp cần lưu trữ một lượng lớn dữ liệu liên quan đến hoạt động kinh doanh, ví dụ như thông tin khách hàng, đối tác và các thông tin liên quan. Trong tình hình đặc biệt của doanh nghiệp hiện tại, vấn đề đảm bảo an toàn dữ liệu và có thể khôi phục sau sự cố là một vấn đề cần được ưu tiên hàng đầu. 
+![Hình ảnh data replication HA]()
+##### 1.6.2.3. Load Balancing HA
 
-###### 1.7.2.3. Load Balancing HA
+##### 1.6.2.4. Backup and Restore HA (For data and something more)
 
-###### 1.7.2.4. Backup and Restore HA (For data and something more)
-
-###### 1.7.2.5. Tôi cũng chưa biêt cái này để làm gì cả. Tí nữa quay về làm lại sau
-
-#### 1.8. Các thiết bị truyền dẫn trong mạng
+### 1.7. Các thiết bị truyền dẫn trong mạng
 *Có 3 kiểu truyền dẫn trong mạng*:
 **Kiểu** 1 - Đơn công (simplex): trong kiểu truyền dẫn này, thiết bị phát tín hiệu và thiết bị nhận tín hiệu được phân biệt rõ ràng, thiết bị phát chỉ dảm nhiệm vai trò phát tín hiệu, thiết bị thu chỉ dảm nhận vai trò nhận tín hiệu. Truyền hình là một ví dụ của kiểu truyền dẫn này. 
 **Kiểu 2** - Bán song công (Half - Duplex): ttrong kiểu truyền dẫn nayfy, thiết bị có thể là thiết bị phát, có thể vừa là thiết bị thu. Tuy nhiên,, tại một thời diểm thì chỉ có thể ở một trạng thái (phát hoặc thu). Bộ dđàm là thiết bị điển hình cho kiểu truyền dẫn này.
@@ -308,7 +297,7 @@ Tìm cách cải thiện hệ thống dựa trên những dữ liệu đã quan 
 Nghiên cứu một số các loại thiết bị truyền dẫn trong mạng ở công ty cho phép sinh viên có cái nhìn tổng quan hơn về các thiết bị này. 
 
 Một vài thiết bị truyền dẫn trong mạng được sử dụng 
-##### 1.8.1. Converter
+#### 1.7.1. Converter
 - Kết nối mạng bằng cáp quang là cần thiết khi cả 2 thiết bị mạng vượt quá khả năng truyền của cáp đồng. Chuyển đổi cáp đồng sang cáp quang bằng cách sử dụng Converter quang cho phép 2 thiết bị mạng có cổng kết nối đồng được kết nối với nhau trong một khoảng cách rộng hơn thông qua hệ thống cáp quang.  
 - Converter quang có sẵn dưới dạng thiết bị chuyển mạch Layer 2 hoặc Layer 3 và có thể cung cấp được các thông tin tính năng chuyển đổi nâng cao như gắn thêm thẻ VLAN. Thông thường, chúng có các vấn đề liên quan nhằm hỗ trợ nhiều loại mạng và tốc độ dữ liệu khác nhau.
 - Bên cạnh đó, Converter cũng có thể sử dụng nhằm chuyển đổi các bước sóng phù hợp cho các ứng dụng ghép kênh phân chia theo bước sóng (WDM)
@@ -317,17 +306,22 @@ Một vài thiết bị truyền dẫn trong mạng được sử dụng
 - Triển khai một vài bộ converter riêng biệt sẽ làm hoạt động triển khai và chỉnh sửa gặp nhiều khó khăn, chính vì thế cần có giải pháp đó là sử dụng một bộ khung để đảm bảo việc triển khai và bảo dưỡng trong hệ thống.
 - Converter quang có sẵn dưới dạng các đơn vị độc lập nhỏ gọn có thể được điều chỉnh và cấp cả nguồn AC hoặc DC. Các Converter quang độc lập được triển khai để chuyển đổi một kết nối đồng sang kết nối quang trong triển khai P2P.
     ![Ảnh 2: Converter được sử dụng trong doanh nghiệp](image.png)
-
+#### 1.7.2. 
 ### 2. An toàn mạng trong doanh nghiệp.
-
 #### 2.1. Vấn đề an toàn mạng trong doanh nghiệp.
-
+- Theo các báo cáo gần đây, thực trạng các vụ tấn công mạng diễn ra ngày càng nhiều và nguy hiểm. Vấn đề bào mật và an toàn thông tin luôn đóng một vai trò quan trọng và thiết thực với mọi tổ chức, doanh nghiệp. Để ngăn chặn và giảm bớt nguy cơ xâm nhập mạng, những giải pháp an ninh mạng sẽ là một sự lựa chọn an toàn.
+##### 2.1.1. Những nguy cơ đe dọa an ninh mạng trong doanh nghiệp
+- Tấn công xâm nhập mạng từ trong nội bộ
+- Đánh cắp dữ liệu
+- Chèn mã độc, virus vào trong phần mềm, công cụ sử dụng
+- Mã độc lây nhiễm bắt nguồn từ Plugin trình duyệt
+- Thiết bị IoT
+Không như giai đoạn trước, các hacker có thể xâm nhập vào hệ thống mạng một cách tinh vi. Thay vì tấn công một mình, hacker thường tổ chức theo nhóm, có kịch bản được dựng sẵn và có một số kịch bản 2 nhằm đề phòng trường hợp kịch bản ban đầu không thực hiện được. Thực tế, cần phải đề phòng tất cả các tác nhân xảy ra mất an toàn trong vận hành mạng liên tục và đảm bảo hệ thống an toàn.
 #### 2.2. Các công nghệ được sử dụng.
 ##### 2.2.1. Password Management Pro (PmP)
-- Đây là một giải pháp quản lý mật khẩu cao cấp được thiết kế để giúp các tổ chức bảo vệ, quản lý và giám sát mật khẩu của người dùng và thiết bị mạng một cách an toàn. Nó thường được sử dụng trong các môi trường doanh nghiệp và tổ chức có quy mô lớn, nơi quản lý mật khẩu phức tạp và yêu cầu tính bảo mật cao. 
-###### 2.2.1.1. Định nghĩa và lý do sử dụng:
+- Đây là một giải pháp quản lý mật khẩu cao cấp được thiết kế để giúp các tổ chức bảo vệ, quản lý và giám sát mật khẩu của người dùng và thiết bị mạng một cách an toàn. Nó thường được sử dụng trong các môi trường doanh nghiệp và tổ chức có quy mô lớn, nơi quản lý mật khẩu phức tạp và yêu cầu tính bảo mật cao.
 - Việc sử dụng PmP giúp giảm thiểu rủi ro do mật khẩu yếu, rò rỉ mật khẩu hoạc quản lý mật khẩu thủ công là không hiệu quả.
-###### 2.2.1.2. Ứng dụng của PmP trong thực tế doanh nghiệp
+##### 2.2.1.1. Ứng dụng của PmP trong thực tế doanh nghiệp
 - Nói chung lại thì với các môi trường yêu cầu bảo mật cao, việc sử dụng PmP là hợp lý: 
 + Quản lý mật khẩu của tài khoản người dùng, thiết bị và tài nguyên mạng.
 + Bảo vệ thông tin quan trọng và hỗ trợ giám sát truy cập.
@@ -335,30 +329,54 @@ Một vài thiết bị truyền dẫn trong mạng được sử dụng
 + Tự động hóa việc thay đổi mật khẩu định kì để tăng cường bảo mật.
 + Quản lý mật khẩu của các hệ thống quan trọng như máy chủ, cơ sở dữ liệu và thiết bị mạng.
 
-###### 2.2.1.3. Yêu cầu thiết bị, phần mềm và các hạ tầng liên quan 
+##### 2.2.1.2. Yêu cầu thiết bị, phần mềm và các hạ tầng liên quan 
 Để có thể triển khai hệ thống Password Managgement Pro, một tổ chức cần có:
 - **Hệ thống máy chủ**: Máy chủ để có thể cài đặt và triển khai phần mềm PmP, đảm bảo có khả năng lưu trữ và xử lý dữ liệu một cách an toàn.
 - **Báo cáo và giám sát truy cập**: Cho phép theo dõi tất cả các hoạt động truy cập đến tài khoản và thiết bị.
 - **Phân quyền và quản lý**: Giới hạn quyền truy cập tới mật khẩu dựa trên vai trò của người dùng trong tổ chức.
+##### 2.2.2. Quản lý cấu hình mạng: Auto backup switch config bằng Solarwinds.
 
 ### 3. Bảo mật hệ thống mạng máy tính 
 #### 3.1. Phân chia phòng ban / Mạng quản trị thiết bị
 **Phân chia phòng ban**: Trong một doanh nghiệp, phân chia phòng ban trong quản trị mạng là việc tổ chức và phân tách các bộ phận trong doanh nghiệp thành các đơn vị mạng riêng biệt nhằm đảm bảo tính bảo mật, hiệu suất và quản lý dễ dàng hơn.
 **Một số yếu tố chính trong phân chia phòng ban**: 
+- Phân đoạn mạng (Network segmentation): Mục đích nhằm giới hạn truy cập giữa các phòng ban và giảm thiểu tấn công Lateral movement (di chuyển theo chiều ngang) nếu một bộ phận nào đó trong mạng bị truy cập xâm nhập. Cách thức phân đoạn mạng là sử dụng VLAN nhằm tách mạng vật lý thành các phân đoạn ảo. Mỗi phòng, ban trong công ty đều được cấu hình trong một VLAN riêng, qua đó có thể giảm thiểu dược khả năng truy cập trái phép giữa các phòng ban.
+- Quản lý quyền truy cập: có thể quy định được quyền truy cập giữa các VLAN trong từng phòng ban và hạn chế các bộ phận không liên quan truy cập vào tài nguyên của nhau. ACLs để quy định việc đó. Song song với việc sử dụng ACL, doanh nghiệp có sử dụng Role-Based Access Control (RBAC) nhằm phân quyền theo mỗi vai trò và mỗi phòng ban sẽ có các quyền hạn truy cập dựa trên các vai trò và mỗi chức năng của họ trong hệ thống mạng.
+- Phân tầng bảo mật: Trong phần này, công ty sử dụng firewall nội bộ nhằm thiết lập các tường lửa giữa những phòng ban khác nhau nhằm kiểm soát lưu lượng mạng và lọc ra được những truy cập không hợp lệ.
+- Phân bổ tài nguyên và dịch vụ: Trong việc đảm bảo các phòng ban được phân cấp và quản lý tối ưu, công ty chọn cách sử dụng quản lý thiết bị (Aset Management) để theo dõi và đảm bảo không có thiết bị trái phép nào được kết nối vào mạng.
+**Lợi ích của việc phân chia phòng ban trong mạng**:
+- Tăng cường và quản lý mạng hiệu quả hơn bằng cách phân tách và các thành phần phức tạp thành các bộ phận nhỏ hơn.
+- Tối ưu hóa hiệu suất mạng: Bằng việc quản lý và hiệu chỉnh thiết bị sẽ giảm thiểu được tắc nghẽn mạng và cải thiện hiệu suất hệ thống do lưu lượng được phân tán theo từng khu vực.
+
 #### 3.2. Gateway từng phòng ban
-#### 3.3. Chính sách kết nối từng phòng ban
-#### 3.4. Chính sách kết nối internet
-#### 3.5. Định danh người dùng
+- Gateway từng phòng ban là các cổng kết nối giữa từng phân đoạn mạng củ các phòng ban với mạng tổng thể, hoặc với các dịch vụ bên ngoài như Internet. Việc quản lý được gateway cho từng phòng ban là cực kì quan trọng trong bảo mật và đảm bảo hiệu suất mạng. Những tính năng chính:
++ Tường lửa nội bộ (Internal Firewalls): Các phòng ban được tổ chức các firewall tại gateway nhằm kiểm soát được lưu lượng và các bộ phận bị hạn chế truy cập lẫn nhau.
++ Mã hóa lưu lượng: Đảm bảo các kết nối giữa các phòng ban và qua gateway đều được mã hóa và đảm bảo tính toàn ven của dữ liệu được truyền đi trong mạng. 
+#### 3.3. Chính sách kết nối internet
+Quy định các thiết bị và người dùng trong mạng nội bộ truy cập ra ngoài Internet nhằm giảm thiểu tối đa nguy cơ an ninh mạng từ các mối đe dọa bên ngoài. Có một số cách được áp dụng để đạt hiệu quả cao:
+- Web Filtering: Sử dụng proxy hoặc firewalls để kiểm soát và lọc truy cập vào các trang web không phù hợp hoặc nguy hiểm.
+- VPN Bắt buộc: Đối với các kết nối từ xa yêu cầu người dùng kết nối qua VPN để đảm bảo an toàn và mã hóa dữ liệu.
+- Bandwidth Management: Quản lý băng thông để ngăn ngừa sử dụng tài nguyên không hiệu quả hoặc làm giảm hiệu suất của hệ thống.
+
+#### 3.4. Định danh người dùng (user Authentication)
+Là quá trình xác định và xác thực danh tính của người dùng khi truy cập vào hệ thống.
+- Một vài phương pháp xác thực người dùng: xác thực yếu tố đơn (Single-Factor Authentication -SFA) - Dung mật khẩu là phương pháp phổ biến nhất, nhưng hiện tại không còn đủ an toàn nếu chỉ dựa vào một yếu tố này. 
+- Quản lý định danh: IAM Hệ thống này gióp quản lý danh tính của người dùng, vai trò và quyền truy cập vào các tài nguyên trong hệ thống.
+
+**Tổng kết**: 
+- Bảo mật hệ thống mạng của một doanh nghiệp là việc làm vô cùng quan trọng, đóng vai trò then chốt trong việc đảm bảo an toàn thông tin doanh nghiệp cũng như đảm bảo doanh nghiệp vận hành một cách an toàn và hiệu quả.
+
 # **Chương 3**. KINH NGHIỆM TẠI VỊ TRÍ THỰC TẬP
 ### 1. Kinh nghiệm thực tế
 #### 1.1. Tham gia vào quá trình làm việc thực tế tại công ty
 - Được tham gia vào quá trình làm việc của công ty đã cho em một cái nhìn tổng quan về vị trí việc làm trong hệ thống.
 - Được tham gia vào các hoạt động việc làm thực tế đã tích lũy được một lượng kinh nghiệm và em có thể sẵn sàng làm việc trong đa dạng các môi trường khác nhau.
+
 #### 1.2. Vận dụng và làm việc với các thiết bị mạng
 - Được làm việc với các thiết bị mạng trong doanh nghiệp lớn và uy tín cao. Việc làm quen với các chuẩn thiết bị lớn của Cisco ... và các nhãn hàng khác hợp tác cùng doanh nghiệp là các kiến thức vô cùng hữu ích trong việc hiểu và vận dụng các kiến thức đã được học trong nhà trường vào môi trường thực tế. 
 - Được làm việc với thiết bị mạng mới và được sản xuất bởi các doanh nghiệp lớn, giúp hiểu rõ và vận dụng được những kiến thức đã học được tại nhà trường.
 #### 1.3. Tiếp cận với các công nghệ quản trị mạng trong doanh nghiệp
-- Trong quá trình thực tập tại công ty, em được tiếp cận và làm việc với 2 phần mềm quản lý là Solarwind (để quản lý cấu hình mạng: auto backup switch config và giám sát, chẩn đoán lưu lượng mạng). Và PmP (Password management Pro) nhằm quản lý mạt khẩu một cách hiệu quả và bảo mật.
+- Trong quá trình thực tập tại công ty, em được tiếp cận và làm việc với 2 phần mềm quản lý là Solarwinds (để quản lý cấu hình mạng: auto backup switch config và giám sát, chẩn đoán lưu lượng mạng). Và PmP (Password management Pro) nhằm quản lý mạt khẩu một cách hiệu quả và bảo mật.
 - Đây là những kinh nghiệm cần thiết và quý báu, qua đó nâng cao được tay nghề và khả năng sử dụng các công nghệ trong quản trị một hệ thống mạng. 
 ### 2. Kĩ năng học được trong quá trình thực tập.
 #### 2.1. Kết quả
