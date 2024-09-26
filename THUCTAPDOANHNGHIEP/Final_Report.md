@@ -406,7 +406,7 @@ Các kĩ năng mà em đã trau dồi trong quá trình thực tập:
 - **Mentoring và hướng dẫn chuyên nghiệp**: Thường xuyên tương tác với các đồng nghiệp có kinh nghiệp trong ngành giúp em có được sự hướng dẫn và mentoring quý giá, đồng thời mở rộng network của mình.
 #### 2.2. Định hướng sau thực tập
 - Sau 2 tháng thực tập, bản thân em đã thu được những kết quả nhất định, cả về kiến thức, kinh nghiệm cũng như rát nhiều kĩ năng cần thiết, thông qua quá trình thực tập đó, em được tìm hiểu về những công nghệ mới, nhưng kiến thức mà trước đây em vẫn chưa có cơ hội được tiếp xúc mang đến cho em những trải nghiệm rất thú vị.
-- Sự hỗ trợ, hướng dẫn vaf giúp đỡ tận hình của các anh chị đồng nghiệp trong **Công ty Cổ phần Giải pháp CNTT Tân Cảng** xuyên suốt quá trình thực tập tại **Công ty Cổ phần Giải pháp CNTT Tân Cảng** sẽ giúp em rất nhiều trong môi trường thực tế trên con đường tiếp theo.
+- Sự hỗ trợ, hướng dẫn và giúp đỡ tận hình của các anh chị đồng nghiệp trong **Công ty Cổ phần Giải pháp CNTT Tân Cảng** xuyên suốt quá trình thực tập tại **Công ty Cổ phần Giải pháp CNTT Tân Cảng** sẽ giúp em rất nhiều trong môi trường thực tế trên con đường tiếp theo.
 
 # **Chương 4**. TÀI LIỆU THAM KHẢO
 [1]. Báo cáo tình hình ATTT (6 tháng đầu năm 2024) - VNPT Cyber Immunity.
