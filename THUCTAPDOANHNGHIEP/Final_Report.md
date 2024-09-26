@@ -92,36 +92,40 @@ Mô hình này là mô tả 7 tầng của một hệ thống mạng máy tính 
 - *Hiểu biết chung về những hệ thống phức tạp*: Nó giúp các kĩ sư có thể tổ chức và mô hình hóa kiến trúc mạng của các hệ thống mạng phức tạp. Bằng cách chia lớp dựa trên các chức năng chính, nó giúp quản lý và hiểu biết hệ thống một cách rõ ràng.
 - *Nghiên cứu và chuẩn hóa nhanh hơn*: Khi xây dựng một hệ thống mới, kĩ sư có thể hiểu rõ công việc của mình thông qua mô hình OSI. Điều này giúp họ phát triển công nghệ cần thiết để tạo ra được một thệ thống mạng hoạt động một cách hiệu quả. Đồng thời tạo điều kiện để phát triển cũng như sửa lỗi hệ thống nhanh chóng bằng cách chuẩn hóa các quy trình và giao thức đẫ được chuẩn hóa.
 #### 1.3. Tìm hiểu về mạng LAN
+##### 1.3.1. Những yếu tố cơ bản cấu tạo nên hệ thống mạng LAN
+- Những yếu tố chính cấu thành nên mạng LAN, bao gồm:
++ **Máy trạm (workstation) trong mạng LAN**: Bao gồm các thiết bị máy tính xách tay, PC, máy tính bảng, điện thoại di động... và các thiết bị này sẽ được kết nối vào mạng LAN để có thể truy cập các nguồn tài nguyên và liên lạc với các thiết bị khác trong mạng.
 LAN (Local Area Network) là một hệ thống mạng máy tính cho phép các thiết bị kết nối và giao tiếp với nhau nhằm chia sẻ dữ liệu. 
++ **Card giao tiếp mạng (Network Interface Card - NIC) và drive**: đây là một phần cứng được cài vào máy tính để kết nối với mạng LAN, đồng thời một phần mềm driver cần được cài đặt trên hệ điều hành để quản lý hoạt động của card mạng này.
++ **Vai trò của Switch trong mạng LAN**: Switch là thiết bị chuyển mạch dữ liệu, giúp kết nối máy tính và các thiết bị trong mạng LAN, chuyển tiếp tài nguyên dữ liệu từ thiết bị này sang thiết bị khác. Các loại cáp mạng có nhiều loại như cáp quang, cáp mạng Ethernet, cáp đồng trục và tùy vào công nghệ được sử dụng.
++ **Router trong mạng LAN**: Router là thiết bị mạng được sử dụng để kết nối mạng LAN và mạng WAN hoặc với các mạng khác nhau. Router còn đóng vai trò định tuyến dữ liệu, điều khiển lưu lượng giữa các mạng và quản lý lưu lượng trên mạng. Là thiết bị dùng để kết nối mạng LAN với WAN hoặc các mạng khác, có khả năng định tuyến dữ liệu và quản lý lưu lượng.
++ **Hệ điều hành trong mạng LAN**: Các Server trong mạng LAN thường chạy các hệ điều hành như windows server, linux hoặc macOS server, cung cấp các dịch vụ phù hợp để quản lý lưu lượng mạng.
 
 **Kết nối trong mạng LAN**
 Kết nối trong mạng LAN thường được thiết lập thông qua cáp mạng hoặc kết nối không dây, trong một khu vực giới hạn nhất định, đó có thể là văn phòng, nhà riêng hoặc trường học.
 
 - LAN cho phép các thiết bị trao đổi thông tin và tài nguyên như tệp tin, máy in, và ứng dụng, tạo điều kiện cho sự hợp tác và chia sẻ trong một mội trường cục bộ.
 
-- Phạn vi sử dụng LAN: LAN có phạm vi sử dụng hạn chế trong một khu vực như văn phòng, nhà riêng, trường học, phòng game, hoặc doanh nghiệp. Thông thường phạm vi của mạng LAN không vượt quá 100m
+- Phạn vi sử dụng LAN: LAN có phạm vi sử dụng hạn chế trong một khu vực như văn phòng, nhà riêng, trường học, phòng game, hoặc doanh nghiệp. Thông thường phạm vi của mạng LAN không vượt quá 100m.
 
 - Các kiểu (Topology) trong LAN
-// Bảng thể hiện các kiểu trong mạng LAN // 
+![Các topology trong mạng LAN](IMAGES/MoHinhMangLAN.png)
 
-**Các tiêu chuẩn của mạng LAN**:
-Các tiêu chuẩn của LAN Ethernet chỉ định hệ thống cáp và tín hiệu cả lớp liên kết vật lý và dữ liệu của mô hình tham chiếu OSI: 
-
-![Hình ảnh các tiêu chuẩn của mạng LAN]()
-
--	IEEE chia lớp liên kết dữ liệu OSI thành 2 lớp con riêng biệt:
-**ĐIều khiển liên kết logic (LLC)**: Chuyển tiếp lên lớp mạng
-Cho phép một phần của lớp liên kết dữ liệu (Data Link) hoạt động độc lập với cấc công nghệ hiện có Lớp này cung cấp tính linh hoạt trong các dịch vụ cho các giao thức lớp mạng ở trên nó, đồng thời giao tiếp hiệu quả với nhiều loại công nghệ MAC và Lớp 1 bên dưới nó. LLC, với tư cách là một lớp con, tham gia vào quá trình đóng gói.
-
-Một LLC header cho lớp liên kết dữ liệu biết phải làm gì với một gói khi nó nhận được một khung. Ví dụ, một máy chủ nhận một khung và sau đó nhìn vào LLC header để hiểu rằng gói được dành cho giao thức IP ở lớp mạng.
-
-Ethernet header ban đầu (trước IEEE 802.2 và 802.3) không sử dụng LLC header. Thay vào đó, nó sử dụng một trường loại trong Ethernet header để xác định giao thức Lớp 3 đang được mang trong khung Ethernet.
-
-**MAC**: Chuyển xuống lớp vật lý
-MAC Sublayer xử lý quyền truy cập phương tiện vật lý. Đặc tả MAC của IEEE 802.3 xác định địa chỉ MAC, địa chỉ này nhận dạng duy nhất nhiều thiết bị ở lớp liên kết dữ liệu. Lớp con MAC duy trì một bảng địa chỉ MAC (địa chỉ vật lý) của các thiết bị. Để tham gia vào mạng, mỗi thiết bị phải có một địa chỉ MAC duy nhất.
-
-**Các kiểu (Topology) của mạng LAN
-
+**Các tiêu chuẩn của Wifi hiện nay**:
+- **Wifi 802.11 chuẩn a/b/g/n/ac** là một chuẩn nhỏ của kết nối 802.11. Đây là một tập các chuẩn để đặc tả thông số kĩ thuật của mạng không dây do tổ chức IEEE tạo ra.
+- Hoạt động trên dải băng tần 5GHz và tốc độ tối đa lên tới 1730 Mbps, Wifi 802.11 chuẩn a/b/g/n/ac sẽ giúp người dùng trải nghiệm ở mức độ truy cập internet cao nhất.
+- **Chuẩn 802.11** vào năm 1997, tổ chức IEE đã giới thiệu chuẩn mạng không dây đầu tiên chuản 802.1. Tốc độ tối đa của mạng mà chuẩn 802.11 này hỗ trợ chỉ là 2 Mbps với băng tần là 2.4 GHz.
+- Với sự phát triển của tốc độ truy cập internet hiện nay thì chuẩn 802.11 được xem là quá chậm nên không còn được sử dụng trên nhiều thị trường nữa.
+- **Chuẩn 802.11b**: sau khoảng 2 năm giới thiệu chuẩn 802.11, IEEE tiếp tục giới thiệu một chuẩn mới với tên gọi chuẩn 802.11b với nhiều cải tiến. Cụ thể, chuẩn 802.11b hỗ trợ 11 Mbps nhưng vẫn sử dụng dải băng tần 2.4 GHz. Phạm vi kết nối của chuẩn 802.11b có thể
+lên đến 150m tùy thuộc vào môi trường.
+- Bởi vì vẫn sử dụng dải băng tần 2.4 GHz nên thiết bị trang bị chuẩn 802.11b là rất dễ bị nhiễu từ, đặc biệt khi đặt cạnh các thiết bị như tivi, lò vi sóng,...
+- **Chuẩn 802.11a** được phát triển cùng thời gian với chuẩn 802.11b nhưng chủ yếu cho đối tượng khách hàng là doanh nghiệp thay vì đối tượng gia đình như chuẩn b, do đó chuẩn a có giá thành khá cao.
+- Chuẩn 802.11a hỗ trợ tốc độ gấp gần 5 lần so với chuẩn b, tối đa lên tới 54Mpbs với băng tần vô tuyến 5GHz. Nhờ thay đổi băng tần nên chuẩn 802.11a khắc phục điểm yếu dễ nhiễu từ. Tuy nhiên, khuyết điểm của chuẩn này đó là phạm vị hoạt động bị thu hẹp lại chỉ còn từ 40 – 100m bởi tần số cao, gặp các vật cản như tường, vách thì tín hiệu khó có thể xuyên qua được.
+- **Chuẩn 802.11g** được ra mắt vào năm 2003 là bản kết hợp của hai chuẩn 802.11a và chuẩn 802.11b. Chuẩn 802.11g hỗ trợ tốc độ đến 54 Mpbs như chuẩn a nhưng sử dụng băng tần 2.4 GHz như chuẩn b, vì vậy chuẩn này có tốc độ cao, phạm vi tín hiệu tốt (80 - 200 m). Vì sử dụng dải băng tần 2.4 GHz như chuẩn b nên chuẩn g cũng dễ bị nhiễu sóng từ, nhưng vì có nét tương đồng về thông số nên chuẩn g và chuẩn b có khả năng tương thích ngược với nhau. Hiện nay chuẩn 802.11g vẫn còn được sử dụng khá phổ biến tại các hộ gia đình vì giá thành tương đối rẻ.
+- **Chuẩn 802.11n (hay 802.11 b/g/n)** là chuẩn WiFi thế hệ thứ 4 của IEEE ra mắt năm 2009 với tên gọi chuẩn 802.11n (hay 802.11 b/g/n). Đây là chuẩn đang được yêu thích nhất hiện nay vì đường truyền tốc độ cao, cho tín hiệu ổn định, giá cả hợp lý. 
+- Chuẩn 802.11n được sử dụng công nghệ MIMO (Multiple-Input Multiple-Output), cho phép hỗ trợ tốc độ tối đa lên tới 600Mbps, đồng thời có thể chạy trên cả 2 băng tần là 2.4 GHz và 5 GHz, phạm vi kết nối lên đến 250m tùy thuộc vào môi trường. 
+- **Chuẩn 802.11ac (hay chuẩn 802.11 a/b/g/n/ac)** là chuẩn mới nhất hiện nay với tên gọi chuẩn 802.11ac (hay chuẩn 802.11 a/b/g/n/ac). Ra mắt năm 2013, chuẩn 802.11 a/b/g/n/ac là bản nâng cấp áp đảo hoàn toàn chuẩn n tiền nhiệm của mình. Chuẩn a/b/g/n/ac cũng được áp dụng công nghệ MIMO, tốc độ tối đa đạt đến 1730 Mbps và sử dụng dải băng tần 5 GHz giúp người dùng sử dụng mạng tốc độ cao nhất. Với nhiều cải tiến đắt giá của mình nên chuẩn 802.11 a/b/g/n/ac có giá thành khá cao. Tất cả các chuẩn WiFi trên Việt Nam đều có sử dụng. Tuy nhiên, hai chuẩn phổ biến nhất hiện nay là 802.11g và 802.11n và được sử dụng nhiều nhất vẫn là 802.11n, hoạt động ở 2 dải tần 2.4GHz và 5GHz.
+- Ngày nay một số thiết bị mới được sản xuất ở Việt Nam đã sử dụng các chuẩn 802.11ac, tuy nhiên số lượng này chưa nhiều (mặc dù ở các nước phát triển đã sử dụng rất phổ biến), một phần do chưa phù hợp với hạ tầng mạng còn hạn chế ở nước ta hiện nay.
 ###### 1.3.2. Các thiết bị mạng
 -	Được chia thành các lớp và các thiết bị tiêu biểu cho các lớp đó được thể hiện dưới đây:
 -	Thiết bị truyền dẫn trong mạng máy tính là các thiết bị có khả năng truyền dẫn dữ liệu từ các thiết bị này đến các thiết bị khác trong mạng. Các thết bị truyền dẫn trong mạng có thể phân loại theo nhiều tiêu chí khác nhau, trong đó tiêu chí phổ biến nhất đó chính là phân loại theo các lớp trong mô hình OSI.
@@ -247,12 +251,10 @@ Trong thực tế, không phải bất cứ hệ thống nào cũng luôn đảm
 
 Để đáp ứng được các yêu cầu từ bộ cân bằng tải, các Server trong hệ thống HA được phân bố trong các cụm và được tổ chức theo kiến trúc tầng. Trong trường hợp một Server thuộc một cụm nào đó bị lỗi thì sẽ dược chuyển tới một Server khác thay thế và sẵn sàng tiếp quản công việc. Nếu trong một hệ thống phức tạp thì tính sẵn sàng cao khó lòng được đảm bảo vì sẽ xuất hiện nhiều điểm lỗi hơn so với hệ thống mạng đơn giản hơn.
 
-##### 1.6.1.5. Các nguyên tắc để thiết kế và duy trì một hệ thống HA hoàn thiện:
-
-##### 1.6.1.6. Vì sao áp dụng HA lại quan trọng trong hệ thống:
+##### 1.6.1.5. Vì sao áp dụng HA lại quan trọng trong hệ thống:
 Hệ thống HA thường là những hệ thống ảnh hưởng và tác động sâu rộng với đời sống của con người về những mặt như sức khỏe, kinh tế và phúc lợi xã hội và tiếp tế thực phẩm,.... nếu vì một nguyên nhân nào đó khiến các hệ thống trên giảm hiệu suất hoạt động thì doanh nghiệp và cuộc sống của người dân sẽ gặp rất nhiều khó khăn.
 
-##### 1.6.1.7. HA được đo lường và đánh giá như thế nào? 
+##### 1.6.1.6. HA được đo lường và đánh giá như thế nào? 
 Tính sẵn sàng của một hệ thống được đo tương ứng khi hệ thống đó không bao giờ bị lỗi và hoạt động 100%. Tỉ lệ % sẵn sàng được tính bằng công thức: Tính sẵn sàng = (Số phút tính trong một tháng - số phút ngừng hoạt động) * 100 / Phút trong một tháng. Dưới đây là các loại số liệu được dùng để đo tính sẵn sàng:
     
 - Thời gian trung bình giữa các lần hỏng hóc ( - MTBF): Tức là trong một hệ thống khoảng thời gian giữa hai lần xảy ra sự cố là bao lâu.
@@ -263,16 +265,14 @@ Tính sẵn sàng của một hệ thống được đo tương ứng khi hệ t
 
 Các hệ thống nội bộ hoặc nhà cung cấp dịch vụ sẽ sử dụng những số liệu nói trên để thực hiện cam kết với khác hàng như trong thỏa thuận mức độ dịch vụ (SLA). SLA là các hợp đồng trong đó nhà cung cấp dịch vụ đưa ra tỉ lệ phần trăm sẵn sàng của hệ thống cho khách hàng tham khảo.
 
-##### 1.6.1.8. Làm thế nào để hệ thống được coi là đạt được HA?
+##### 1.6.1.7. Làm thế nào để hệ thống được coi là đạt được HA?
 
 Tính sẵn sàng cao được coi là đạt được nếu thực hiện các bước sau:
-
 - Thiết kế hệ thống HA đơn giản, chi phí thấp và tuân thủ đầy đủ các quy ước. Cần hạn chế các điểm lỗi và tốt nhất là có chính sách dự phòng khi cần thiết.
 - Xác định được mức độ sẵn sàng mà hệ thống có thể đáp ứng và chỉ số để áp dụng mức độ đo lường đó.
 - Triển khai phần cứng một cách linh hoạt, hiệu quả và chất lượng.
 - Đảm bảo hệ thống chuyển sang hệ thống dự phòng luôn trong trạng thái sẵn sàng để khi xảy ra lỗi có thể thay thế hoặc tiến hành tiếp quản nhanh chóng.
 - Sử đụg số liệu và quan sát để theo đõi hiệu suất của hệ thống, nếu có bất kì vấn đề bất thường trong khi vận hành có thể điều chỉnh cho phù hợp.
-
 Tìm cách cải thiện hệ thống dựa trên những dữ liệu đã quan sát, thu nạp được để đảm bảo hệ thống luôn phát triển và đáp ứng tốt trong mọi điều kiện.
 #### 1.6.2. Ứng dụng HA trong doanh nghiệp
 ##### 1.6.2.1. Cluster HA
