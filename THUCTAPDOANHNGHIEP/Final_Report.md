@@ -277,36 +277,49 @@ Tìm cách cải thiện hệ thống dựa trên những dữ liệu đã quan 
 #### 1.6.2. Ứng dụng HA trong doanh nghiệp
 ##### 1.6.2.1. Cluster HA
 - Sử dụng nhiều máy chủ (Các node) để tạo thành một cụm (Cluster). Nếu một máy chủ gặp sự cố, máy chủ khác trong mạng sẽ tiếp tục tiếp quản công việc. Các node chia sert hông tin về tài nguyên dữ liệu, các dịch vụ được triển khai nhằm đảm bảo dịch vụ được thực hiện thông suốt. 
-![Đảm bảo tính sẵn sàng về điện cho các node trong cụm](image-2.png)
 
 - Trong tình hình thực tế của doanh nghiệp sẽ có những trường hợp nguồn điện cung cấp cho hệ thống bị trục trặc hoặc bị ngắt đột ngột, cần có phương pháp đảm bảo nguồn điện cấp cho hệ thống không bị gián đoạn.
-![Đảm bảo nguồn điện không bị gián đoạn quá lâu trong hệ thống](image-3.png)
+![Đảm bảo nguồn điện không bị gián đoạn quá lâu trong hệ thống](IMAGES/LoadbalancingRecovery.png) 
 
-##### 1.6.2.2. Data Replication HA
-- Doanh nghiệp cần lưu trữ một lượng lớn dữ liệu liên quan đến hoạt động kinh doanh, ví dụ như thông tin khách hàng, đối tác và các thông tin liên quan. Trong tình hình đặc biệt của doanh nghiệp hiện tại, vấn đề đảm bảo an toàn dữ liệu và có thể khôi phục sau sự cố là một vấn đề cần được ưu tiên hàng đầu. 
-![Hình ảnh data replication HA]()
+##### 1.6.2.2. Data Replication and Backup - Restore data
+- Ứng dụng HA vào việc backup dữ liệu trong doanh nghiệp là một bước cực kì quan trọng, đảm bảo tính liên tục và an toàn của dữ liệu. Trong doanh nghiệp có sử dụng một vài giải pháp sau:
++ **On-Premises Backup**: Sao lưu dữ liệu tại chỗ sử dụng hệ thống lưu trữ ổ cwungs nội bộ. Tất nhiên, giải pháp này giúp doanh nghiệp kiểm soát được hoàn toàn dữ liệu nhưng đòi hỏi phải đầu tư vào hạ tầng và quản lý hạ tầng khá cao.
++ **Automated Backup Solution**: Sử dụng phần mềm tự động hóa quá trình sao lưu nhằm giảm thiểu rủi ro do lỗi của người dùng và đảm bảo luôn được cập nhật.
+- Bên cạnh đó còn một số giải pháp phổ biến đang được sử dụng ngoài doanh nghiệp:
++ **Cloud Backup**: Sao lưu dữ liệu lên cloud là một giải pháp hiệu quả và linh hoạt. Dữ liệu được truyền qua mạng và lưu trữ lại tại các máy chủ bên ngoài, thường do các nhà cung cấp dịch vụ chuyên nghiệp quản lý.
++ **Hybrid Backup**: Kết hợp giữa việc sao lưu tại chỗ và sau lưu dữ liệu trên Cloud giúp tận dụng ưu điểm của cả hai phương pháp. Dữ liệu quan trọng có thể được sao lưu tại chỗ để có thể truy cập nhanh chóng, trong khi các bản sao lưu dài hạn được lưu trữ trên đám mây.
++ **Disaster Recovery Plans**: Xây dựng kế hoạch khôi phục dữ liệu sau thảm họa, bao gồm các quy trình và công cụ cần thiết để khôi phục hoạt động kinh doanh nhanh chóng. 
+- Doanh nghiệp, đặc biệt là những doanh nghiệp lớn với các lưu lượng truy cập nhiều thì việc áp dụng các giải pháp đảm bảo an toàn dữ liệu không những giúp bảo vệ được những thông tin nhạy cảm mà còn đảm bảo doanh nghiệp có thể phục hồi nhanh chóng sau các sự cố và giảm thiểu thiệt hại và gián đoạn hoạt động kinh doanh.
+![Hình ảnh data replication HA](IMAGES/HAdatastorage.png)
 ##### 1.6.2.3. Load Balancing HA
-
-##### 1.6.2.4. Backup and Restore HA (For data and something more)
-
+- Trong bối cảnh các hệ thống lớn phải xử lý rất nhiều lượt truy cập đồng thời từ người dùng, từ các phòng ban sau đó phản hồi lại một cách chính xác nhất và yêu cầu về việc mở rộng hoặc triển khai thêm các server. Điều này kéo theo việc phải có biện pháp phân phối lượng truy cập tới các cluster một cách hợp lý để tối ưu hóa tốc độ xử lý. Load balancing là một phương pháp dùng để phân phối trafic đầu vào một cách hiệu quả đến các **server đầu cuối (Backend)** hay được gọi là **server farm**.
+- Khi một server bất kì trong server pool bị sự cố hoặc có vấn đề kĩ thuật, Load balancer sẽ có nhiệm vụ chuyển hướng traffic đến các server khác trong pool. Tương tự trong trường hợp có một server mới được thêm vào pool, load balancer sẽ tự động đẩy traffic tới server mới đó.
+- Lợi ích của việc sử dụng Load balancing:
++ Phân phối request của người dùng một cách hiệu quả đến nhiều server, từ đó giảm tải lượng công việc phải thực hiện trên mỗi server.
++ Tăng tính linh hoạt của toán bộ hệ thống khi có thể thêm hoặc bớt server bất kì lúc nào.
++ Đảm bảo tính High Avalability (HA) và độ tin cậy (Reliablility) bằng việc chỉ có thể gửi request tới các server đang online, từ đó giảm thiểu downtime khi một server nào đó bị sự cố kĩ thuật trước khi được phục hồi.
++ Tăng tính bảo mật của hệ thống (vì các server lúc này sẽ nằm trong vùng DMZ) - người dùng khi kết nối đến hệ thống chỉ đang kết nối đến load balancer thay vì trực tiếp đến các server. 
+![Load balancing sử dụng HA](IMAGES/HAloadbalancing.png)
 ### 1.7. Các thiết bị truyền dẫn trong mạng
 *Có 3 kiểu truyền dẫn trong mạng*:
 **Kiểu** 1 - Đơn công (simplex): trong kiểu truyền dẫn này, thiết bị phát tín hiệu và thiết bị nhận tín hiệu được phân biệt rõ ràng, thiết bị phát chỉ dảm nhiệm vai trò phát tín hiệu, thiết bị thu chỉ dảm nhận vai trò nhận tín hiệu. Truyền hình là một ví dụ của kiểu truyền dẫn này. 
 **Kiểu 2** - Bán song công (Half - Duplex): ttrong kiểu truyền dẫn nayfy, thiết bị có thể là thiết bị phát, có thể vừa là thiết bị thu. Tuy nhiên,, tại một thời diểm thì chỉ có thể ở một trạng thái (phát hoặc thu). Bộ dđàm là thiết bị điển hình cho kiểu truyền dẫn này.
 **Kiểu 3** - Song công (Full - Duplex): Trong kiểu truyền dẫn này, tại cùng một thời điểm, thiết bị vừa có thể là thiiết bị phát vừa có thể là thiết bị thu. Điện thoại di động là một ví dụ điển hình cho kiểu truyền dẫn này.
 Nghiên cứu một số các loại thiết bị truyền dẫn trong mạng ở công ty cho phép sinh viên có cái nhìn tổng quan hơn về các thiết bị này. 
-
-Một vài thiết bị truyền dẫn trong mạng được sử dụng 
 #### 1.7.1. Converter
 - Kết nối mạng bằng cáp quang là cần thiết khi cả 2 thiết bị mạng vượt quá khả năng truyền của cáp đồng. Chuyển đổi cáp đồng sang cáp quang bằng cách sử dụng Converter quang cho phép 2 thiết bị mạng có cổng kết nối đồng được kết nối với nhau trong một khoảng cách rộng hơn thông qua hệ thống cáp quang.  
 - Converter quang có sẵn dưới dạng thiết bị chuyển mạch Layer 2 hoặc Layer 3 và có thể cung cấp được các thông tin tính năng chuyển đổi nâng cao như gắn thêm thẻ VLAN. Thông thường, chúng có các vấn đề liên quan nhằm hỗ trợ nhiều loại mạng và tốc độ dữ liệu khác nhau.
 - Bên cạnh đó, Converter cũng có thể sử dụng nhằm chuyển đổi các bước sóng phù hợp cho các ứng dụng ghép kênh phân chia theo bước sóng (WDM)
 - Công ty có sử dụng bộ converter quang Standalone và bộ Media converter Classis khung gầm:
-    ![Ảnh 1: Bộ Media Converter Classis](image-1.png)
+    ![Ảnh 1: Bộ Media Converter Classis](IMAGES/Converter.png)
 - Triển khai một vài bộ converter riêng biệt sẽ làm hoạt động triển khai và chỉnh sửa gặp nhiều khó khăn, chính vì thế cần có giải pháp đó là sử dụng một bộ khung để đảm bảo việc triển khai và bảo dưỡng trong hệ thống.
 - Converter quang có sẵn dưới dạng các đơn vị độc lập nhỏ gọn có thể được điều chỉnh và cấp cả nguồn AC hoặc DC. Các Converter quang độc lập được triển khai để chuyển đổi một kết nối đồng sang kết nối quang trong triển khai P2P.
     ![Ảnh 2: Converter được sử dụng trong doanh nghiệp](image.png)
-#### 1.7.2. 
+#### 1.7.2. Loại quang
+- Trong thời đại ngày nay, cáp quang đã nổi lên như một công nghệ truyền thông hiện đại, đem lại tốc độ và hiệu suất vượt trội trong kết nối và truyền tải thông tin. 
+- Để đảm bảo được đường truyền nhanh và ổn định, cần có độ ưu tiên cao về băng thông và khả năng truyền tải. 
+- Loại quang có các đặc điểm như tốc độ cao, băng thông rộng và độ ổn dịnh lớn, tạo ra cho người dùng môi trường trải nghiệm internet tốt hơn và thuận lợi cho truy cập của người dùng. 
+![Cáp quang trong doanh nghiệp](IMAGES/OpticalFiberCable.png)
 ### 2. An toàn mạng trong doanh nghiệp.
 #### 2.1. Vấn đề an toàn mạng trong doanh nghiệp.
 - Theo các báo cáo gần đây, thực trạng các vụ tấn công mạng diễn ra ngày càng nhiều và nguy hiểm. Vấn đề bào mật và an toàn thông tin luôn đóng một vai trò quan trọng và thiết thực với mọi tổ chức, doanh nghiệp. Để ngăn chặn và giảm bớt nguy cơ xâm nhập mạng, những giải pháp an ninh mạng sẽ là một sự lựa chọn an toàn.
