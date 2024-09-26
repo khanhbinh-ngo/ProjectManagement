@@ -91,7 +91,7 @@ Mô hình này là mô tả 7 tầng của một hệ thống mạng máy tính 
 **Tại sao mô hình này lại quan trọng?**
 - *Hiểu biết chung về những hệ thống phức tạp*: Nó giúp các kĩ sư có thể tổ chức và mô hình hóa kiến trúc mạng của các hệ thống mạng phức tạp. Bằng cách chia lớp dựa trên các chức năng chính, nó giúp quản lý và hiểu biết hệ thống một cách rõ ràng.
 - *Nghiên cứu và chuẩn hóa nhanh hơn*: Khi xây dựng một hệ thống mới, kĩ sư có thể hiểu rõ công việc của mình thông qua mô hình OSI. Điều này giúp họ phát triển công nghệ cần thiết để tạo ra được một thệ thống mạng hoạt động một cách hiệu quả. Đồng thời tạo điều kiện để phát triển cũng như sửa lỗi hệ thống nhanh chóng bằng cách chuẩn hóa các quy trình và giao thức đẫ được chuẩn hóa.
-#### 1.3. *Tìm hiểu về mạng LAN
+#### 1.3. Tìm hiểu về mạng LAN
 LAN (Local Area Network) là một hệ thống mạng máy tính cho phép các thiết bị kết nối và giao tiếp với nhau nhằm chia sẻ dữ liệu. 
 
 **Kết nối trong mạng LAN**
