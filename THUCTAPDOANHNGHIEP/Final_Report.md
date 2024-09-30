@@ -58,7 +58,7 @@ Nhằm đáp ứng yêu cầu nghiên cứu, ứng dụng, triển khai có hi�
 #### 3.1. Thời gian thực tập
 - Thời gian bắt đầu: 22/7/2024
 - Thời gian kết thúc: 30/9/2024
-#### .2. Các giai đoạn thực tập*
+#### .2. Các giai đoạn thực tập
 - *Giai đoạn 1 Thời gian: Từ 22/7 đến 5/8*: Nghiên cứu chuyên sâu các kiến thức  
 - *Giai đoạn 2 Thời gian: Từ 6/8 đến 19/8*: Tìm hiểu và làm quen với một số platform mà doanh nghiệp sử dụng
 - *Giai đoạn 3 Thời gian: Từ 19/8 đến 26/8*: Nghiên cứu cơ cấu mạng doanh nghiệp
@@ -150,9 +150,6 @@ Trong những năm gần đây, wireless LANs đã chiếm một vị trí cực
 -	Chúng ta có thể xem xét ba loại mạng LAN chính, được phân loại theo công nghệ truyền dẫn thông tin như sau: Hồng ngoại, 
 -	Từ cách đặt tên, mạng wireless LANs được sử dụng trong một môi trường truyền dẫn không dây. Đến gần đây, sau khi đã có thể giải quyết được những vấn đề tồn tại của nó như khả năng truyền tải kém, giá thành cao và lo ngại các vấn đề về bảo mật thông tin cũng như cần thiết các hạ tầng phù hợp... thì mạng LAN đã phát triển và trở thành một phần không thể thiếu của doanh nghiệp. 
 -	Giới thiệu về Wifi: WiFi (Wireless Fidenlity), là công nghệ cho phép người dùng có thể truy cập vào Internet dựa trên sóng vô tuyến không dây mà không cần thông qua các kết nối vật lý như dây mạng. Nói cách khác, wifi phát ra các loại sóng tương tự như sóng điện thoại hay sóng radio để truyền tín hiệu tới các thiết bị điện tử như TV, điện thoại, hay máy tính bảng và các thiết bị có thể kết nối tới sóng wifi.
-
-![Bảng 2: Các chuẩn Wifi được sử dụng phổ biến hiện nay]()
-
 #### 1.4. Tìm hiểu về mạng WAN
 
 Mạng diện rộng (Wide Area Network) là công nghệ kết nối các văn phòng, các trung ttâm dữ liệu, ứng dụng đám mấy của bạn với nhau, Nó được gội là mạng diện rộng vì không chỉ nằm trong phạm vi một tòa nhà hoặc một khuôn viên rộng lớn mà còn mở rộng ra nhiều vị trí trải dài trên một khu vực địa lý cụ thể, hoặc thậm chí là trên toàn thế giới
